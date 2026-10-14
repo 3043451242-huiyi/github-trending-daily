@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "generated": "2026-10-14 10:47",
+  "top50_count": 50,
+  "top50_avg_velocity": 2296.3,
+  "top50_total_stars": 4153185,
+  "hw10_count": 10,
+  "altium_entries": 36,
+  "top5": [
+    {
+      "rank": 1,
+      "name": "morluto/rea",
+      "velocity": 54679.0
+    },
+    {
+      "rank": 2,
+      "name": "storytold/photocraft",
+      "velocity": 4157.7
+    },
+    {
+      "rank": 3,
+      "name": "boykopovar/AnyPS5",
+      "velocity": 4094.7
+    },
+    {
+      "rank": 4,
+      "name": "storytold/artcraft",
+      "velocity": 4081.0
+    },
+    {
+      "rank": 5,
+      "name": "deepseek-ai/deepseek-harness",
+      "velocity": 4017.1
+    }
+  ]
+}
