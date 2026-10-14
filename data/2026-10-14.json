@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14 12:03",
+  "generated": "2026-10-14 12:11",
   "top50": [
     {
       "rank": 1,
@@ -732,6 +732,86 @@
       "lang": "Python",
       "cn": "Windows 便携小工具：按立创商城 C 编号批量下载元件的 STEP/OBJ 3D 模型，并直接导出为 Altium Designer 的 SchLib / PcbLib（含嵌入 STEP），大幅缩短建库与 3D 装配检查的时间。",
       "tag": "AD 建库工具"
+    },
+    {
+      "name": "byrantech/laptop",
+      "url": "https://github.com/byrantech/laptop",
+      "stars": 4267,
+      "lang": "KiCad Layout",
+      "cn": "【RK3588】开源高端笔记本 anyon_e 的完整硬件工程：以瑞芯微 RK3588 为主控，KiCad 完成整机原理图与多层高速主板布局，含 LPDDR4/DDR 布线、PCIe/USB3/HDMI 等高速链路与电源树设计，是把 RK3588 做成完整产品级硬件的标杆参考。",
+      "tag": "RK3588 高速主板"
+    },
+    {
+      "name": "industrialtablet/RK3576S-RK3576-RK3588-Tablet-Development-Board",
+      "url": "https://github.com/industrialtablet/RK3576S-RK3576-RK3588-Tablet-Development-Board",
+      "stars": 189,
+      "lang": "硬件资料",
+      "cn": "【RK3576/RK3588】HYY 科技公开的 RK3576S / RK3576 / RK3588 平板开发板全套硬件资料（原理图、位号图、BOM 等），芯片原厂级参考设计，做 RK 系列平板/工控主板时可直接对标选型与走线。",
+      "tag": "RK3576/RK3588 参考设计"
+    },
+    {
+      "name": "FanX-Tek/rk3588-TRM-and-Datasheet",
+      "url": "https://github.com/FanX-Tek/rk3588-TRM-and-Datasheet",
+      "stars": 180,
+      "lang": "技术文档",
+      "cn": "【RK3588】瑞芯微 RK3588/RK3588S 技术参考手册（TRM）与数据手册的整理归档：引脚复用、电源域、DDR/PCIe/SerDes 控制器寄存器与电气规格一应俱全，是做 RK3588 硬件设计与寄存器级调试必不可少的一手资料。",
+      "tag": "RK3588 芯片手册"
+    },
+    {
+      "name": "radxa/radxa-som-projects",
+      "url": "https://github.com/radxa/radxa-som-projects",
+      "stars": 94,
+      "lang": "Python/KiCad",
+      "cn": "【RK3588/RK3566】Radxa 官方 SoM 载板设计资料库：含核心板与载板的原理图、PCB 与器件库，并附机器可读的 agentic hardware-db 元数据，是把 RK3588/RK3566 核心板集成为自研载板的权威起点。",
+      "tag": "RK SoM 载板设计"
+    },
+    {
+      "name": "CmST0us/tspi-linux-sdk",
+      "url": "https://github.com/CmST0us/tspi-linux-sdk",
+      "stars": 84,
+      "lang": "C",
+      "cn": "【RK3566】立创开发板「泰山派」（RK3566）Linux SDK 的非官方镜像：包含该 RK3566 单板电脑的原理图/外设资料与完整 Buildroot/Linux 构建脚本，硬件+系统一体，适合低成本 RK3566 学习与二次开发。",
+      "tag": "RK3566 单板"
+    },
+    {
+      "name": "petabyt/rk",
+      "url": "https://github.com/petabyt/rk",
+      "stars": 61,
+      "lang": "C",
+      "cn": "【RK3399/RK3588】瑞芯微 RK3399 / RK3588 的裸机代码、引导程序与硬件文档合集：从 maskrom 启动、时钟/PMIC 初始化到外设寄存器说明，是深入理解 RK 系列 SoC 硬件启动链路与底层时序的实战资料。",
+      "tag": "RK 裸机/硬件文档"
+    },
+    {
+      "name": "hw-myry/rk3566-devkit",
+      "url": "https://github.com/hw-myry/rk3566-devkit",
+      "stars": 5,
+      "lang": "HTML",
+      "cn": "【RK3566】个人开源的 RK3566 核心板工程：**6 层高速 PCB**，配 LPDDR4 内存，完整覆盖 DDR 等长布线、阻抗控制与电源完整性处理，是学习「RK3566 + LPDDR4 高速板」具体做法的少见的完整实例。",
+      "tag": "RK3566 6 层高速板"
+    },
+    {
+      "name": "dongchu2006311-dev/RK3399-High-Speed-Board-Design",
+      "url": "https://github.com/dongchu2006311-dev/RK3399-High-Speed-Board-Design",
+      "stars": 0,
+      "lang": "PCB 工程",
+      "cn": "【RK3399】**12 层处理器高速板**学习工程：围绕 RK3399 SoC 展开，包含 LPDDR4、eMMC、PMIC 电源设计、WiFi/BT，以及 USB3.0 / Type-C / HDMI 等高速接口布线，是研究高多层板层叠、高速接口走线与电源分割的完整练习案例。",
+      "tag": "RK3399 12 层高速案例"
+    },
+    {
+      "name": "atopile/atopile",
+      "url": "https://github.com/atopile/atopile",
+      "stars": 3988,
+      "lang": "Python",
+      "cn": "【高速设计方法学】用「代码」设计电路板：以声明式语言描述器件、连线与约束，支持设计复用、参数化校验、版本管理与协作，理念类似「硬件界的软件开发范式」，适合把高速/复杂板卡的规则与复用逻辑工程化、可回归。",
+      "tag": "代码化硬件设计"
+    },
+    {
+      "name": "timvideos/HDMI2USB-numato-opsis-hardware",
+      "url": "https://github.com/timvideos/HDMI2USB-numato-opsis-hardware",
+      "stars": 121,
+      "lang": "硬件工程",
+      "cn": "【高速接口】全球首个完全开源的 HDMI2USB 采集板 Numato Opsis 硬件工程：涉及 HDMI 视频输入、高速差分对与 FPGA 大引脚数布线的完整设计文件，是学习 HDMI 等高速串行接口板级实现的经典开源参考。",
+      "tag": "高速 HDMI 板"
     }
   ],
   "hw_backup": [
