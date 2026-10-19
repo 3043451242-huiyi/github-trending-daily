@@ -1,9 +1,9 @@
 {
   "date": "2026-10-19",
-  "generated": "2026-10-19 09:10",
+  "generated": "2026-10-19 09:48",
   "top50_count": 50,
-  "top50_avg_velocity": 1743.1,
-  "top50_total_stars": 4480819,
+  "top50_avg_velocity": 1744.0,
+  "top50_total_stars": 4482430,
   "hw10_count": 20,
   "altium_entries": 36,
   "top5": [
@@ -15,12 +15,12 @@
     {
       "rank": 2,
       "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3777.7
+      "velocity": 3778.6
     },
     {
       "rank": 3,
       "name": "storytold/photocraft",
-      "velocity": 3552.6
+      "velocity": 3553.4
     },
     {
       "rank": 4,
