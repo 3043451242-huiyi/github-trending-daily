@@ -1,36 +1,36 @@
 {
-  "date": "2026-10-21",
-  "generated": "2026-10-21 09:35",
+  "date": "2026-10-22",
+  "generated": "2026-10-22 09:43",
   "top50_count": 50,
-  "top50_avg_velocity": 1534.2,
-  "top50_total_stars": 4832406,
+  "top50_avg_velocity": 1365.9,
+  "top50_total_stars": 4633393,
   "hw10_count": 20,
   "altium_entries": 36,
   "top5": [
     {
       "rank": 1,
       "name": "morluto/rea",
-      "velocity": 22518.7
+      "velocity": 18488.1
     },
     {
       "rank": 2,
-      "name": "MadsLorentzen/ai-job-search",
-      "velocity": 3861.0
+      "name": "deepseek-ai/deepseek-harness",
+      "velocity": 3672.0
     },
     {
       "rank": 3,
-      "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3708.1
+      "name": "storytold/photocraft",
+      "velocity": 3211.9
     },
     {
       "rank": 4,
-      "name": "storytold/photocraft",
-      "velocity": 3319.0
+      "name": "debpalash/VoiceStudio",
+      "velocity": 2160.7
     },
     {
       "rank": 5,
-      "name": "debpalash/VoiceStudio",
-      "velocity": 2436.7
+      "name": "DietrichGebert/ponytail",
+      "velocity": 2079.0
     }
   ]
 }
