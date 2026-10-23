@@ -1,36 +1,36 @@
 {
-  "date": "2026-10-22",
-  "generated": "2026-10-22 09:43",
+  "date": "2026-10-23",
+  "generated": "2026-10-23 09:42",
   "top50_count": 50,
-  "top50_avg_velocity": 1365.9,
-  "top50_total_stars": 4633393,
+  "top50_avg_velocity": 1217.1,
+  "top50_total_stars": 4795304,
   "hw10_count": 20,
   "altium_entries": 36,
   "top5": [
     {
       "rank": 1,
       "name": "morluto/rea",
-      "velocity": 18488.1
+      "velocity": 15191.6
     },
     {
       "rank": 2,
       "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3672.0
+      "velocity": 3636.9
     },
     {
       "rank": 3,
       "name": "storytold/photocraft",
-      "velocity": 3211.9
+      "velocity": 3103.9
     },
     {
       "rank": 4,
       "name": "debpalash/VoiceStudio",
-      "velocity": 2160.7
+      "velocity": 1940.1
     },
     {
       "rank": 5,
-      "name": "DietrichGebert/ponytail",
-      "velocity": 2079.0
+      "name": "eternity4719/HowToLiveBetter",
+      "velocity": 1478.3
     }
   ]
 }
