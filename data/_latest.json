@@ -1,16 +1,16 @@
 {
   "date": "2026-10-26",
-  "generated": "2026-10-26 09:09",
+  "generated": "2026-10-26 09:39",
   "top50_count": 50,
-  "top50_avg_velocity": 925.5,
-  "top50_total_stars": 4847546,
+  "top50_avg_velocity": 925.6,
+  "top50_total_stars": 4848134,
   "hw10_count": 20,
   "altium_entries": 36,
   "top5": [
     {
       "rank": 1,
       "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3532.2
+      "velocity": 3532.5
     },
     {
       "rank": 2,
@@ -20,12 +20,12 @@
     {
       "rank": 3,
       "name": "storytold/photocraft",
-      "velocity": 2801.5
+      "velocity": 2801.9
     },
     {
       "rank": 4,
       "name": "morluto/rea",
-      "velocity": 1973.1
+      "velocity": 1973.7
     },
     {
       "rank": 5,
