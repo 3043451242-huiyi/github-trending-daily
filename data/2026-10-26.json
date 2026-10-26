@@ -1,0 +1,1145 @@
+{
+  "generated": "2026-10-26 09:08",
+  "top50": [
+    {
+      "rank": 1,
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 261381,
+      "lang": "TypeScript",
+      "velocity": 3532.2,
+      "src": "hot_pushed",
+      "created": "2026-08-13",
+      "desc_cn": "DeepSeek 官方的 AI Agent 运行框架，核心理念是「一切皆插件」（dsh 插件生态的宿主运行时），用于把模型、工具与技能编排成可复用的智能体。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-08-13 起累计 ★"
+    },
+    {
+      "rank": 2,
+      "name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "stars": 46923,
+      "lang": "JavaScript",
+      "velocity": 2878.0,
+      "src": "trending_daily",
+      "created": "",
+      "desc_cn": "Cloudflare 出的编码 Agent 技能包：把代码安全审计拆成多个阶段（威胁建模 → 逐文件审查 → 交叉验证 → 结论），每条发现都要独立复核并产出机器可读的结果文件，专门抑制「AI 报假漏洞」。",
+      "src_label": "Trending 日榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 3,
+      "name": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "stars": 72838,
+      "lang": "Rust",
+      "velocity": 2801.5,
+      "src": "new60d",
+      "created": "2026-09-30",
+      "desc_cn": "用纯 Rust 从零手写的开源照片编辑器，主打本地运行与性能，不依赖任何既有图像编辑框架，属于作者「Craft 系列」桌面创意软件之一。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-30 起累计 ★"
+    },
+    {
+      "rank": 4,
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 384745,
+      "lang": "TypeScript",
+      "velocity": 1973.1,
+      "src": "hot_pushed",
+      "created": "2026-04-14",
+      "desc_cn": "用 AI Agent 做逆向工程的工具箱：从应用层行为一路下探到原生二进制，覆盖桌面、移动与固件。内置 agent 技能与 CLI，可串接反编译器，面向安全分析、CTF 与二进制审计。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-04-14 起累计 ★"
+    },
+    {
+      "rank": 5,
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "stars": 86845,
+      "lang": "Python",
+      "velocity": 1699.2,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "完全本地运行的开源 ElevenLabs 替代方案：声音克隆、音色设计、视频配音、听写、转写与有声书制作，覆盖 646 种语言，语音数据不出本机。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 6,
+      "name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "stars": 48247,
+      "lang": "C++",
+      "velocity": 1578.8,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "把 PS5 可执行文件自动移植到 Linux / Windows 的工具，属于主机游戏兼容层与二进制逆向移植方向，用于让 PS5 游戏在 PC 平台跑起来。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 7,
+      "name": "eternity4719/HowToLiveBetter",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "stars": 68994,
+      "lang": "HTML",
+      "velocity": 1408.0,
+      "src": "new60d",
+      "created": "2026-09-07",
+      "desc_cn": "《高性价比人生指南》中文条目库：涵盖长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与平台合规、出国与技能。每条都写明成本、收益、证据等级与原始出处，只引期刊论文和官方文件。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-07 起累计 ★"
+    },
+    {
+      "rank": 8,
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "stars": 105832,
+      "lang": "TypeScript",
+      "velocity": 1374.6,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "面向「一群 Agent 一起干活」的桌面工作台（Agent IDE）：用自己已有的订阅额度同时驱动 Claude Code、Codex、Grok Bot 等多个编码 Agent，可并行开多个会话、互相审阅与接力，支持桌面与移动端。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 9,
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 176194,
+      "lang": "JavaScript",
+      "velocity": 1353.6,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "让 AI Agent 像「屋里最懒的资深工程师」那样思考的插件/规则集：核心信条是 YAGNI —— 最好的代码是你从没写出来的那段。兼容 Claude Code、Cursor 等。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 10,
+      "name": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "stars": 42960,
+      "lang": "JavaScript",
+      "velocity": 1342.5,
+      "src": "new60d",
+      "created": "2026-09-24",
+      "desc_cn": "dsh 插件：装上后无需登录、注册或填 API Key，即可直接调用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，完全免费且不限量（属个人实验性质）。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-24 起累计 ★"
+    },
+    {
+      "rank": 11,
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 393053,
+      "lang": "TypeScript",
+      "velocity": 1169.8,
+      "src": "hot_pushed",
+      "created": "2025-11-24",
+      "desc_cn": "主打「真的会动手做事」的 AI 助手，跨操作系统、跨平台，强调用户对自己的数据拥有所有权，是当前个人助理类 Agent 生态的热门基座。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2025-11-24 起累计 ★"
+    },
+    {
+      "rank": 12,
+      "name": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "stars": 20603,
+      "lang": "JavaScript",
+      "velocity": 1144.6,
+      "src": "new60d",
+      "created": "2026-10-08",
+      "desc_cn": "Agent 技能：为真实机器与复杂系统自动生成精细、可交互的等轴测（isometric）插画，输出打磨过的 SVG，可选叠加 WebGL 着色器与 3D 效果，用于原理讲解与技术可视化。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-10-08 起累计 ★"
+    },
+    {
+      "rank": 13,
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 303255,
+      "lang": "Shell",
+      "velocity": 1144.4,
+      "src": "hot_pushed",
+      "created": "2026-02-03",
+      "desc_cn": "知名 TypeScript 教育者 Matt Pocock 直接公开自己 .agents 目录的 Agent Skills 集合，定位是「给真正干活的工程师」用，偏实战而非演示。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-02-03 起累计 ★"
+    },
+    {
+      "rank": 14,
+      "name": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "stars": 15571,
+      "lang": "Rust",
+      "velocity": 1091.0,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "给 AI 检索数据的新范式：靠「自动索引」让 Agent 直接知道自己有哪些数据、该查哪里，避免 grep 式全量扫描带来的 token 浪费；内置 BM25 / 图检索 / Elasticsearch 等多种检索后端，主打大规模代码与文档库的低成本检索。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 15,
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 288873,
+      "lang": "JavaScript",
+      "velocity": 1028.0,
+      "src": "hot_pushed",
+      "created": "2026-01-18",
+      "desc_cn": "Agent 运行框架的性能优化系统：把技能、直觉、记忆、安全与研究优先的开发流程整合起来，支持 Claude Code、Codex、Opencode、Cursor 等多种宿主。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-01-18 起累计 ★"
+    },
+    {
+      "rank": 16,
+      "name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "stars": 32789,
+      "lang": "C++",
+      "velocity": 1024.7,
+      "src": "new60d",
+      "created": "2026-09-24",
+      "desc_cn": "让 Qwen3.8-Flash-Next 这类大模型跑在消费级硬件上的推理引擎：Windows / Linux 一键安装，自带 Strata 推理引擎，并在 localhost 暴露 OpenAI / Anthropic 兼容 API，可选图像输入。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-24 起累计 ★"
+    },
+    {
+      "rank": 17,
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "stars": 135262,
+      "lang": "Python",
+      "velocity": 986.1,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "把任意代码库连同文档、SQL schema、配置文件和 PDF 一起转成可查询的知识图谱：本地确定性 AST 解析、每条边都有解释、不依赖向量数据库；提供 Claude Code / Cursor / Codex / Gemini CLI 的 /graphify 技能。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 18,
+      "name": "ultraworkers/claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "stars": 194984,
+      "lang": "Rust",
+      "velocity": 932.9,
+      "src": "hot_pushed",
+      "created": "2026-03-31",
+      "desc_cn": "一个由 Agent 自主开发与维护的 Rust 项目（作者称开发全程无人工干预），既是代码仓库也是「AI 全自动维护软件」的实验样本。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-03-31 起累计 ★"
+    },
+    {
+      "rank": 19,
+      "name": "NandhaKishorM/laya",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "stars": 34305,
+      "lang": "Python",
+      "velocity": 902.8,
+      "src": "new60d",
+      "created": "2026-09-18",
+      "desc_cn": "非自回归的「系统 1」决策引擎：一次前向传播就能对任意文本输出类型化选项、打分和是/否判断，支持 100 多种语言，并带路由机制按请求自动挑选最合适的 checkpoint。适合做分类、校准与快速决策层。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-18 起累计 ★"
+    },
+    {
+      "rank": 20,
+      "name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "stars": 53728,
+      "lang": "Python",
+      "velocity": 849.5,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "「会学习的 Agent 记忆」组件：为智能体提供可持续演进的长期记忆与检索能力，让 Agent 跨会话积累经验而不是每次从零开始。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 21,
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 221525,
+      "lang": "TypeScript",
+      "velocity": 845.9,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "开源的终端编码 Agent：在命令行里直接读写代码库、跑测试、调工具，定位是 Claude Code / Codex 的开源替代品，模型可自选、可接本地或第三方 API，社区插件与自定义 Agent 配置活跃。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 22,
+      "name": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "stars": 16052,
+      "lang": "Rust",
+      "velocity": 844.8,
+      "src": "new60d",
+      "created": "2026-10-07",
+      "desc_cn": "纯 Rust 净室重写（clean-room）的开源字处理软件，对标 Microsoft Word，与 PhotoCraft、GridCraft 等同属 ArtCraft 系列。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-10-07 起累计 ★"
+    },
+    {
+      "rank": 23,
+      "name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "stars": 107296,
+      "lang": "TypeScript",
+      "velocity": 802.7,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "开源的企业内 Agent 管理平台，覆盖智能体编排、技能管理、权限与治理，用于把团队里的多个 Agent 统一管起来。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 24,
+      "name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 72170,
+      "lang": "TypeScript",
+      "velocity": 801.7,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "「写 HTML 就能渲染视频」：HeyGen 出品的视频渲染管线，专为 Agent 设计，可把 HTML 模板批量转成视频。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 25,
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 305054,
+      "lang": "Shell",
+      "velocity": 798.6,
+      "src": "hot_pushed",
+      "created": "2025-10-09",
+      "desc_cn": "一整套「Agent 技能框架 + 软件开发方法论」：把头脑风暴、子代理驱动开发、代码评审等环节固化成可复用技能，可直接用于真实项目交付。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2025-10-09 起累计 ★"
+    },
+    {
+      "rank": 26,
+      "name": "openai/math",
+      "url": "https://github.com/openai/math",
+      "stars": 15510,
+      "lang": "Lean",
+      "velocity": 775.5,
+      "src": "new60d",
+      "created": "2026-10-06",
+      "desc_cn": "OpenAI 公开的内部模型数学研究成果库：收录内部模型在开放数学问题上的产出——719 篇手稿按 372 个「论文族」（主结果 / 配套论证 / 推论 / 替代证明）组织并分学科归类，部分结果附 Lean 形式化证明与 Comparator 验证配置，团队会持续补齐形式化。既是模型数学能力的公开证据，也是形式化数学社区可复用的语料。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-10-06 起累计 ★"
+    },
+    {
+      "rank": 27,
+      "name": "storytold/pdfcraft",
+      "url": "https://github.com/storytold/pdfcraft",
+      "stars": 17847,
+      "lang": "Rust",
+      "velocity": 686.4,
+      "src": "new60d",
+      "created": "2026-09-30",
+      "desc_cn": "纯 Rust 从零手写的开源 PDF 阅读器与编辑器，覆盖 PDF 解析、生成、处理与查看全链路。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-30 起累计 ★"
+    },
+    {
+      "rank": 28,
+      "name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "stars": 21460,
+      "lang": "Go",
+      "velocity": 650.3,
+      "src": "new60d",
+      "created": "2026-09-23",
+      "desc_cn": "菜单栏里的「模型路由器」：让每个 Agent 都用上最合适的模型——Codex 接 DeepSeek、Claude Code 接 Kimi、Gemini CLI 接别家都行，一处配置统一转发，省去各家 API / 订阅的来回切换。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-23 起累计 ★"
+    },
+    {
+      "rank": 29,
+      "name": "lexmount/moli",
+      "url": "https://github.com/lexmount/moli",
+      "stars": 20670,
+      "lang": "Rust",
+      "velocity": 627.9,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "面向 AI Agent 的无头浏览器（headless browser）：Rust 编写，主打轻量、启动快、页面兼容性高，用于网页抓取与 Agent 的浏览器操作能力。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 30,
+      "name": "storytold/filmcraft",
+      "url": "https://github.com/storytold/filmcraft",
+      "stars": 16283,
+      "lang": "Rust",
+      "velocity": 626.3,
+      "src": "new60d",
+      "created": "2026-09-30",
+      "desc_cn": "纯 Rust 从零手写的开源非线性视频编辑器，与 PhotoCraft / WordCraft 同一系列，追求原生性能与不依赖既有剪辑框架。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-30 起累计 ★"
+    },
+    {
+      "rank": 31,
+      "name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "stars": 137706,
+      "lang": "TypeScript",
+      "velocity": 601.3,
+      "src": "hot_pushed",
+      "created": "2026-03-11",
+      "desc_cn": "投资人 Garry Tan 公开自己的 Claude Code 工作环境：23 个「有主见」的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师与 QA，展示了一种重度使用 Agent 的团队组织方式。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-03-11 起累计 ★"
+    },
+    {
+      "rank": 32,
+      "name": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "stars": 23649,
+      "lang": "Python",
+      "velocity": 591.2,
+      "src": "new60d",
+      "created": "2026-09-16",
+      "desc_cn": "主打「最快、最省」的网页操作 Agent，属于 browser-use 生态中的极速版实现，用于自动化网页任务。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-16 起累计 ★"
+    },
+    {
+      "rank": 33,
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "stars": 102492,
+      "lang": "Python",
+      "velocity": 584.4,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "给 AI Agent 装上「上网的眼睛」：一条命令即可读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台，零 API 费用。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 34,
+      "name": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "stars": 103953,
+      "lang": "TypeScript",
+      "velocity": 574.3,
+      "src": "hot_pushed",
+      "created": "2026-04-28",
+      "desc_cn": "本地优先的开源「Claude Design 替代」桌面应用：把你的编码 Agent 变成设计引擎，可产出原型、落地页、仪表盘、幻灯片、图片与视频，并导出真实的 HTML / PDF / PPTX / MP4 文件；支持 Claude Code、Codex、Cursor 等 20+ CLI（BYOK）。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-04-28 起累计 ★"
+    },
+    {
+      "rank": 35,
+      "name": "storytold/lightcraft",
+      "url": "https://github.com/storytold/lightcraft",
+      "stars": 14652,
+      "lang": "Rust",
+      "velocity": 563.5,
+      "src": "new60d",
+      "created": "2026-09-30",
+      "desc_cn": "纯 Rust 手写的开源非破坏性照片编辑器，偏摄影后期与 RAW 处理方向。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-30 起累计 ★"
+    },
+    {
+      "rank": 36,
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "stars": 115054,
+      "lang": "Go",
+      "velocity": 561.2,
+      "src": "hot_pushed",
+      "created": "2026-04-04",
+      "desc_cn": "病毒式传播的 Agent 技能 + 代理：让编码 Agent 用「原始人语」极简表达，把 token 消耗砍掉约 65%，用最少的字传达最多的信息。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2026-04-04 起累计 ★"
+    },
+    {
+      "rank": 37,
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 257062,
+      "lang": "Python",
+      "velocity": 557.6,
+      "src": "hot_pushed",
+      "created": "2025-07-22",
+      "desc_cn": "Nous Research 推出的通用 Agent 框架，定位为「与你一起成长的智能体」，可接入多种模型后端。",
+      "src_label": "近期活跃高星",
+      "metric": "建仓 2025-07-22 起累计 ★"
+    },
+    {
+      "rank": 38,
+      "name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "stars": 94319,
+      "lang": "Java",
+      "velocity": 529.4,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "美国国家安全局（NSA）开源的软件逆向工程（SRE）框架，提供反汇编、反编译与二进制分析能力，是安全研究与恶意代码分析领域的事实标准工具。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 39,
+      "name": "robbietilton/Compositor",
+      "url": "https://github.com/robbietilton/Compositor",
+      "stars": 17882,
+      "lang": "Swift",
+      "velocity": 447.1,
+      "src": "new60d",
+      "created": "2026-09-16",
+      "desc_cn": "Swift 原生实现的 macOS 图像处理/合成软件，定位为 Mac 上的 Photoshop 替代品。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-16 起累计 ★"
+    },
+    {
+      "rank": 40,
+      "name": "storytold/vectorcraft",
+      "url": "https://github.com/storytold/vectorcraft",
+      "stars": 10683,
+      "lang": "Rust",
+      "velocity": 410.9,
+      "src": "new60d",
+      "created": "2026-09-30",
+      "desc_cn": "纯 Rust 从零手写的开源矢量绘图工具，主打 SVG 编辑与矢量图形处理。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-30 起累计 ★"
+    },
+    {
+      "rank": 41,
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "stars": 57120,
+      "lang": "Python",
+      "velocity": 384.4,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "港大数据智能实验室提出的「让所有软件都 Agent 原生」方案：把任意软件/命令行工具包装成 AI Agent 可直接调用的能力，并提供 CLI-Hub 做能力发现与分发，目标是让 Agent 不再受限于少数几个预置工具。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 42,
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "stars": 71887,
+      "lang": "Python",
+      "velocity": 365.8,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "号称全球首个开源「Agent 化视频生产系统」：12 条制作流水线、100+ 工具、700+ 技能与制作知识文件，把你的编码助手变成完整的视频制作工作室。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 43,
+      "name": "storytold/cadcraft",
+      "url": "https://github.com/storytold/cadcraft",
+      "stars": 6802,
+      "lang": "Rust",
+      "velocity": 358.0,
+      "src": "new60d",
+      "created": "2026-10-07",
+      "desc_cn": "纯 Rust 净室重写的 AutoCAD 风格开源 CAD 绘图软件，面向计算机辅助设计与制图。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-10-07 起累计 ★"
+    },
+    {
+      "rank": 44,
+      "name": "rehan-remade/universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "stars": 8955,
+      "lang": "Python",
+      "velocity": 344.4,
+      "src": "new60d",
+      "created": "2026-09-30",
+      "desc_cn": "把 Claude 指向任意 PC 游戏：通过技能、工具与 fal MCP，让 Agent 完成侦察、逆向、AI 生成美术/3D/音频、游戏内实测与展示视频制作，实现近乎全自动的游戏 Mod 开发。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-09-30 起累计 ★"
+    },
+    {
+      "rank": 45,
+      "name": "storytold/gridcraft",
+      "url": "https://github.com/storytold/gridcraft",
+      "stars": 6516,
+      "lang": "Rust",
+      "velocity": 342.9,
+      "src": "new60d",
+      "created": "2026-10-07",
+      "desc_cn": "纯 Rust 净室重写的开源电子表格，对标 Microsoft Excel，属于 ArtCraft Crafting Apps 系列。",
+      "src_label": "新建 60 天内",
+      "metric": "建仓 2026-10-07 起累计 ★"
+    },
+    {
+      "rank": 46,
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "stars": 44566,
+      "lang": "Python",
+      "velocity": 320.7,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "Anthropic 官方维护的 Claude Code 插件目录：把高质量的 MCP Server、Skills、斜杠命令按统一规范收录与分发，是给 Claude Code 生态「装扩展」的第一入口，也兼作第三方插件质量的参考基线。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 47,
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 103123,
+      "lang": "TypeScript",
+      "velocity": 293.9,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "让 Agent 拥有跨会话的持久上下文：记录会话全过程、用 AI 压缩提炼，并在后续会话中注入相关记忆；兼容 Claude Code、OpenClaw、Codex、Gemini、Copilot、OpenCode 等。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 48,
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "stars": 54583,
+      "lang": "Python",
+      "velocity": 290.0,
+      "src": "trending_weekly",
+      "created": "",
+      "desc_cn": "把通用 AI Agent 变成「AI 科学家」的技能库：177 个经过验证的科研技能，覆盖生物信息、化学信息、基因组学、临床研究、药物发现与数据分析，宣称已有 25 万以上科研人员使用。",
+      "src_label": "Trending 周榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 49,
+      "name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "stars": 32259,
+      "lang": "TypeScript",
+      "velocity": 277.5,
+      "src": "trending_monthly",
+      "created": "",
+      "desc_cn": "给 AI 编码 Agent 做上下文窗口优化的中间件：把工具输出沙箱化（宣称可削减约 98% 的 token 占用）、持久化会话记忆，并通过 MCP + hooks 在 17 个平台上强制路由，专门治长任务里的「上下文爆炸」与「失忆」。",
+      "src_label": "Trending 月榜",
+      "metric": "周期内实际净增 ★"
+    },
+    {
+      "rank": 50,
+      "name": "liseami/CCBaga",
+      "url": "https://github.com/liseami/CCBaga",
+      "stars": 3034,
+      "lang": "Rust",
+      "velocity": 202.3,
+      "src": "new30d",
+      "created": "2026-10-11",
+      "desc_cn": "用 Rust 写的跨 macOS / Linux / Windows 本地环境维护工具箱：可归档与切换本地 Claude 身份、轮换配套 Chromium 的浏览器指纹并重启、按所选区域对齐系统语言与时区，并比对浏览器 / 机器读数与真实网络出口是否一致。作者声明仅限身在境外者管理自己的 Claude 环境，违规使用违反服务条款，存在合规风险（谨慎评估）。",
+      "src_label": "新建 30 天内",
+      "metric": "建仓 2026-10-11 起累计 ★"
+    }
+  ],
+  "hw10": [
+    {
+      "name": "freerouting/freerouting",
+      "url": "https://github.com/freerouting/freerouting",
+      "stars": 2132,
+      "lang": "Java",
+      "cn": "成熟的 Java 开源 PCB 自动布线器，可直接读取 Specctra DSN、输出 SES 回灌到 Altium/KiCad/Eagle 等 PCB 工具；支持多层、差分对与自定义设计规则，是「自动布线 + 人工微调」工作流里最常用的一环。",
+      "tag": "自动布线"
+    },
+    {
+      "name": "aklofas/kicad-happy",
+      "url": "https://github.com/aklofas/kicad-happy",
+      "stars": 1504,
+      "lang": "Python",
+      "cn": "KiCad 电子设计的 AI 编码 Agent 技能集（兼容 Claude Code 等），把原理图评审、BOM、设计规则检查、数据手册查阅等硬件工程动作封装成可被 Agent 调用的技能，代表「AI 进入硬件设计流程」的新范式。",
+      "tag": "AI 辅助硬件设计"
+    },
+    {
+      "name": "Altium-Designer-addons/scripts-libraries",
+      "url": "https://github.com/Altium-Designer-addons/scripts-libraries",
+      "stars": 593,
+      "lang": "DelphiScript/VBScript",
+      "cn": "Altium Designer 官方社区维护的二次开发资源合集：DelphiScript / VBScript 脚本与配套库，覆盖批量改属性、BOM 处理、封装生成、DRC 辅助等，是写 AD 自动化脚本时最先查的「脚本字典」。",
+      "tag": "AD 脚本生态"
+    },
+    {
+      "name": "QWaveSystems/QWAVE_Raspberry-Pi-CM4-Altium-Library",
+      "url": "https://github.com/QWaveSystems/QWAVE_Raspberry-Pi-CM4-Altium-Library",
+      "stars": 211,
+      "lang": "Altium",
+      "cn": "树莓派 Compute Module 4 (CM4) 的完整 Altium 库 + 设计模板 + 布线指南，包含高速差分对、阻抗控制与叠层建议，是把 CM4 高速接口（PCIe/USB3/HDMI/MIPI）集成进自研板卡时非常实用的参考工程。",
+      "tag": "高速设计参考"
+    },
+    {
+      "name": "ayberkozgur/jlcpcb-design-rules-stackups",
+      "url": "https://github.com/ayberkozgur/jlcpcb-design-rules-stackups",
+      "stars": 296,
+      "lang": "Altium 规则文件",
+      "cn": "把嘉立创（JLCPCB）的工艺能力和叠层直接导出成 Altium Designer 的设计规则与 Layer Stack Manager 叠层文件：线宽线距、过孔尺寸、阻抗控制参数一次配好，避免下厂后反复改板。",
+      "tag": "制造约束/阻抗"
+    },
+    {
+      "name": "Nubis-Communications/SignalIntegrity",
+      "url": "https://github.com/Nubis-Communications/SignalIntegrity",
+      "stars": 221,
+      "lang": "Python",
+      "cn": "面向高速链路的信号完整性（SI）Python 工具库：提供 S 参数处理、传输线/通道建模、眼图与损耗评估等常用函数，适合把 SI 分析脚本化、接入自动化流程。",
+      "tag": "信号完整性"
+    },
+    {
+      "name": "OpenTimer/OpenTimer",
+      "url": "https://github.com/OpenTimer/OpenTimer",
+      "stars": 721,
+      "lang": "Verilog/C++",
+      "cn": "高性能静态时序分析（STA）工具，面向 VLSI 数字设计：读取 Verilog 网表与 SDC 约束，做时序检查与优化，可用于高速数字电路（DDR/SerDes 控制器等）的时序收敛验证。",
+      "tag": "高速数字时序"
+    },
+    {
+      "name": "chili-chips-ba/openeye-CamSI",
+      "url": "https://github.com/chili-chips-ba/openeye-CamSI",
+      "stars": 101,
+      "lang": "SystemVerilog",
+      "cn": "真开源的高速相机串行接口（MIPI CSI）实现，含 PHY 与协议栈，无任何私有加密模块，是学习/自研 MIPI CSI-2 等高速串行接口硬件与 RTL 的少见的完整参考。",
+      "tag": "高速接口 IP"
+    },
+    {
+      "name": "michaelgale/pcbflow",
+      "url": "https://github.com/michaelgale/pcbflow",
+      "stars": 201,
+      "lang": "Python",
+      "cn": "基于 Python 的 PCB 版图与设计自动化包，可用代码描述、生成与复用版图结构（配合 phidl/gdspy 生态），适合做参数化/脚本化 PCB 设计而非纯 GUI 操作。",
+      "tag": "参数化版图"
+    },
+    {
+      "name": "Travelerrrrrr/LCSC3D",
+      "url": "https://github.com/Travelerrrrrr/LCSC3D",
+      "stars": 104,
+      "lang": "Python",
+      "cn": "Windows 便携小工具：按立创商城 C 编号批量下载元件的 STEP/OBJ 3D 模型，并直接导出为 Altium Designer 的 SchLib / PcbLib（含嵌入 STEP），大幅缩短建库与 3D 装配检查的时间。",
+      "tag": "AD 建库工具"
+    },
+    {
+      "name": "byrantech/laptop",
+      "url": "https://github.com/byrantech/laptop",
+      "stars": 4267,
+      "lang": "KiCad Layout",
+      "cn": "【RK3588】开源高端笔记本 anyon_e 的完整硬件工程：以瑞芯微 RK3588 为主控，KiCad 完成整机原理图与多层高速主板布局，含 LPDDR4/DDR 布线、PCIe/USB3/HDMI 等高速链路与电源树设计，是把 RK3588 做成完整产品级硬件的标杆参考。",
+      "tag": "RK3588 高速主板"
+    },
+    {
+      "name": "industrialtablet/RK3576S-RK3576-RK3588-Tablet-Development-Board",
+      "url": "https://github.com/industrialtablet/RK3576S-RK3576-RK3588-Tablet-Development-Board",
+      "stars": 189,
+      "lang": "硬件资料",
+      "cn": "【RK3576/RK3588】HYY 科技公开的 RK3576S / RK3576 / RK3588 平板开发板全套硬件资料（原理图、位号图、BOM 等），芯片原厂级参考设计，做 RK 系列平板/工控主板时可直接对标选型与走线。",
+      "tag": "RK3576/RK3588 参考设计"
+    },
+    {
+      "name": "FanX-Tek/rk3588-TRM-and-Datasheet",
+      "url": "https://github.com/FanX-Tek/rk3588-TRM-and-Datasheet",
+      "stars": 180,
+      "lang": "技术文档",
+      "cn": "【RK3588】瑞芯微 RK3588/RK3588S 技术参考手册（TRM）与数据手册的整理归档：引脚复用、电源域、DDR/PCIe/SerDes 控制器寄存器与电气规格一应俱全，是做 RK3588 硬件设计与寄存器级调试必不可少的一手资料。",
+      "tag": "RK3588 芯片手册"
+    },
+    {
+      "name": "radxa/radxa-som-projects",
+      "url": "https://github.com/radxa/radxa-som-projects",
+      "stars": 94,
+      "lang": "Python/KiCad",
+      "cn": "【RK3588/RK3566】Radxa 官方 SoM 载板设计资料库：含核心板与载板的原理图、PCB 与器件库，并附机器可读的 agentic hardware-db 元数据，是把 RK3588/RK3566 核心板集成为自研载板的权威起点。",
+      "tag": "RK SoM 载板设计"
+    },
+    {
+      "name": "CmST0us/tspi-linux-sdk",
+      "url": "https://github.com/CmST0us/tspi-linux-sdk",
+      "stars": 84,
+      "lang": "C",
+      "cn": "【RK3566】立创开发板「泰山派」（RK3566）Linux SDK 的非官方镜像：包含该 RK3566 单板电脑的原理图/外设资料与完整 Buildroot/Linux 构建脚本，硬件+系统一体，适合低成本 RK3566 学习与二次开发。",
+      "tag": "RK3566 单板"
+    },
+    {
+      "name": "petabyt/rk",
+      "url": "https://github.com/petabyt/rk",
+      "stars": 61,
+      "lang": "C",
+      "cn": "【RK3399/RK3588】瑞芯微 RK3399 / RK3588 的裸机代码、引导程序与硬件文档合集：从 maskrom 启动、时钟/PMIC 初始化到外设寄存器说明，是深入理解 RK 系列 SoC 硬件启动链路与底层时序的实战资料。",
+      "tag": "RK 裸机/硬件文档"
+    },
+    {
+      "name": "hw-myry/rk3566-devkit",
+      "url": "https://github.com/hw-myry/rk3566-devkit",
+      "stars": 5,
+      "lang": "HTML",
+      "cn": "【RK3566】个人开源的 RK3566 核心板工程：**6 层高速 PCB**，配 LPDDR4 内存，完整覆盖 DDR 等长布线、阻抗控制与电源完整性处理，是学习「RK3566 + LPDDR4 高速板」具体做法的少见的完整实例。",
+      "tag": "RK3566 6 层高速板"
+    },
+    {
+      "name": "dongchu2006311-dev/RK3399-High-Speed-Board-Design",
+      "url": "https://github.com/dongchu2006311-dev/RK3399-High-Speed-Board-Design",
+      "stars": 0,
+      "lang": "PCB 工程",
+      "cn": "【RK3399】**12 层处理器高速板**学习工程：围绕 RK3399 SoC 展开，包含 LPDDR4、eMMC、PMIC 电源设计、WiFi/BT，以及 USB3.0 / Type-C / HDMI 等高速接口布线，是研究高多层板层叠、高速接口走线与电源分割的完整练习案例。",
+      "tag": "RK3399 12 层高速案例"
+    },
+    {
+      "name": "atopile/atopile",
+      "url": "https://github.com/atopile/atopile",
+      "stars": 3988,
+      "lang": "Python",
+      "cn": "【高速设计方法学】用「代码」设计电路板：以声明式语言描述器件、连线与约束，支持设计复用、参数化校验、版本管理与协作，理念类似「硬件界的软件开发范式」，适合把高速/复杂板卡的规则与复用逻辑工程化、可回归。",
+      "tag": "代码化硬件设计"
+    },
+    {
+      "name": "timvideos/HDMI2USB-numato-opsis-hardware",
+      "url": "https://github.com/timvideos/HDMI2USB-numato-opsis-hardware",
+      "stars": 121,
+      "lang": "硬件工程",
+      "cn": "【高速接口】全球首个完全开源的 HDMI2USB 采集板 Numato Opsis 硬件工程：涉及 HDMI 视频输入、高速差分对与 FPGA 大引脚数布线的完整设计文件，是学习 HDMI 等高速串行接口板级实现的经典开源参考。",
+      "tag": "高速 HDMI 板"
+    }
+  ],
+  "hw_backup": [
+    [
+      "hackclub/OnBoard",
+      916,
+      "面向 1000+ 青少年的开源 PCB 设计教学与资助计划，仓库内含大量可上手的真实板卡设计与流程文档，适合新人建立完整的画板→打样认知。"
+    ],
+    [
+      "CircuitProApp/CircuitPro",
+      561,
+      "Mac 原生的 PCB 设计工具，个人与非商业免费，是 macOS 上少见的原生 EDA 客户端。"
+    ],
+    [
+      "jaseg/gerbolyze",
+      418,
+      "把 SVG 图元直接渲染进 Gerber / Excellon 文件，用于丝印、铜层图形化处理与制造前美化。"
+    ],
+    [
+      "LeoKemp223/NextBoard",
+      392,
+      "面向硬件产品 PCB 方案设计的 AI Agent：自动做需求确认、检索国内外芯片方案、完成器件选型并下载数据手册。"
+    ],
+    [
+      "zhbi98/pcb-layout-design",
+      150,
+      "面向 Codex/KiCad 的 PCB Layout 自动布线 Skill，把布局约束、走线策略封装成 Agent 可执行的动作。"
+    ]
+  ],
+  "altium_official": [
+    {
+      "name": "Power Analyzer by Keysight（AD 22.10+ 扩展）★电流仿真首选",
+      "url": "https://www.altium.com/documentation/altium-designer/power-analyzer-keysight?version=22",
+      "stars": null,
+      "lang": "Altium 官方扩展（Keysight 引擎）",
+      "cn": "AD 22.10 及以上版本的直流电源完整性（PI-DC）仿真扩展，也就是 AD 里做「电流仿真」的正解：不再是简单的横截面积估算，而是先精确建模铜箔结构，再解算整板供电电压与电流，输出【电压降 / 电流密度 / 过孔最大电流】三类结果。在 PCB 编辑器中以热力图（Heatmap）可视化，可直接定位电流密度热点与压降超标处，并用探针测量任意两点间差分电压或单点电流密度；支持多电源网络同步仿真，可生成带电压/电流裕度、功耗数据的 HTML 报告。以 .pdnaK 分析文档承载配置，结果查看/报告生成只需普通 AD 许可，跑新分析需要单独的 Power Analyzer 授权。",
+      "tag": "电流/压降/电流密度"
+    },
+    {
+      "name": "SI Analyzer by Keysight（高速信号完整性，Open Beta）★电磁/高速首选",
+      "url": "https://www.altium.com/documentation/altium-designer/si-analyzer",
+      "stars": null,
+      "lang": "Altium 官方扩展（Keysight 引擎）",
+      "cn": "面向高速设计的布局后（post-layout）信号完整性检查扩展，覆盖高速设计最关键的四个参数：阻抗、延迟、插入损耗（IL）与回波损耗（RL）。启动后 PCB 数据以 ODB++ 格式导入求解器，可对网络类/差分对/xSignal 批量套用阻抗等约束规格，结果按网络给出计算值（达标绿色、超标红色），阻抗与延迟还能直接以热力图回标到 PCB 上，并提供单端/差分探针与完整分析报告。当前为 Open Beta，跑新分析需有效订阅。这是 AD 22+ 内做「高速电磁/传输特性评估」的官方入口。",
+      "tag": "高速/SI（阻抗-损耗）"
+    },
+    {
+      "name": "Ansys Icepak（热仿真）＋ Altium ECAD 直接导入",
+      "url": "https://www.ansys.com/products/electronics/ansys-icepak",
+      "stars": null,
+      "lang": "商业（Icepak / Fluent CFD）",
+      "cn": "AD 本身没有原生热求解器，做「热仿真」的标准路径就是 Ansys Icepak：它可直接导入 Altium Designer 的 ECAD 数据（也支持 ODB++ / IPC2581），自动把铜箔与过孔信息转成 PCB 各向异性导热系数图，再做板级/系统级稳态与瞬态热流分析（传导+对流+辐射）。更关键的是多物理场链路：SIwave 的直流配电损耗可双向传给 Icepak 做焦耳热分析，Q3D 提取的直流功耗可作为热源，HFSS 与 Icepak 可做电磁-热耦合，温度结果还能送进结构力学算热应力。",
+      "tag": "热仿真（焦耳热/结温）"
+    },
+    {
+      "name": "Mixed-Signal Circuit Simulation（AD 内置 SPICE 仿真）",
+      "url": "https://www.altium.com/documentation/altium-designer/simulation",
+      "stars": null,
+      "lang": "AD 原生",
+      "cn": "AD 内建的混合信号电路仿真器（原理图级，基于 XSPICE/SIMetrix 引擎）：可做直流工作点、瞬态（看器件电流/电压波形）、AC 扫描、噪声与傅里叶分析，用于电源环路、放大器、滤波等电路级的电流与波形仿真；配合 SIMetrix/SIMPLIS 高级引擎可做开关电源与环路稳定性分析。属于「电路级」，与上面的「板级 PI-DC/热/EM」互补。",
+      "tag": "电路级电流/瞬态"
+    },
+    {
+      "name": "Advanced Sim Model / IBIS-AMI 支持",
+      "url": "https://www.altium.com/documentation/altium-designer/simulation-advanced-sim-model",
+      "stars": null,
+      "lang": "AD 原生",
+      "cn": "AD 支持挂载厂商 IBIS / IBIS-AMI 缓冲器模型与高级仿真模型，可在原理图/信号层做高速串行链路（PCIe / DDR / USB3）的反射、串扰与眼图趋势评估，是高速设计前期最省成本的仿真切入点，也是接 Ansys/HFSS 之前的快速筛选手段。",
+      "tag": "高速信号完整性"
+    },
+    {
+      "name": "Layer Stack Manager + Impedance Calculator",
+      "url": "https://www.altium.com/documentation/altium-designer/layer-stack-manager",
+      "stars": null,
+      "lang": "AD 原生",
+      "cn": "叠层管理器与阻抗计算器：定义介质厚度/介电常数、铜厚与线宽间距，自动反算单端/差分阻抗。它既是高速板「阻抗控制」的源头配置，也是上面所有 SI/EM/热仿真能算准的几何与材料基础（叠层不对，仿真结果全部失真）。",
+      "tag": "阻抗/叠层基础"
+    },
+    {
+      "name": "PDN Analyzer by CST（上一代产品，已被取代）",
+      "url": "https://www.altium.com/altium-365/pdn-analyzer",
+      "stars": null,
+      "lang": "Legacy",
+      "cn": "Altium 早期与 CST（现属达索 SIMULIA）合作的电源完整性扩展，功能上与 Power Analyzer 重叠。AD 22+ 用户请优先使用 Power Analyzer by Keysight；老工程/老文档里遇到 PDN Analyzer 时按此理解即可。",
+      "tag": "Legacy（历史参考）"
+    }
+  ],
+  "altium_engines": [
+    {
+      "name": "ngspice/ngspice",
+      "url": "https://github.com/ngspice/ngspice",
+      "stars": 290,
+      "lang": "C",
+      "cn": "开源 SPICE 电路仿真内核的事实标准（大量 EDA 工具的后端）。支持直流/瞬态/AC/噪声/失真分析与 XSPICE 混合信号建模，可用于「电流仿真」的批量化、脚本化：把 AD 导出的网表丢进去跑批量工况。",
+      "tag": "电流/瞬态"
+    },
+    {
+      "name": "PySpice-org/PySpice",
+      "url": "https://github.com/PySpice-org/PySpice",
+      "stars": 874,
+      "lang": "Python",
+      "cn": "用 Python 驱动 ngspice / Xyce 仿真：直接在脚本里搭电路、扫参数、画波形，适合把电路仿真接入自动化测试与参数扫描流程。",
+      "tag": "电流/参数扫描"
+    },
+    {
+      "name": "Xyce/Xyce",
+      "url": "https://github.com/Xyce/Xyce",
+      "stars": 185,
+      "lang": "C++",
+      "cn": "桑迪亚国家实验室（Sandia）的并行 SPICE 仿真器，面向超大规模电路（数万至百万节点）与电热耦合求解，适合电源系统级与大规模板级网络仿真。",
+      "tag": "大规模电路/电热"
+    },
+    {
+      "name": "ra3xdh/qucs_s",
+      "url": "https://github.com/ra3xdh/qucs_s",
+      "stars": 1407,
+      "lang": "C++",
+      "cn": "Qucs-S：带 Qt 图形界面的开源电路仿真器，可调用 ngspice/Xyce 后端，支持 S 参数仿真、谐波平衡，适合 RF/模拟电路做 AC 与电流/电压波形分析。",
+      "tag": "界面化 SPICE"
+    },
+    {
+      "name": "SpiceSharp/SpiceSharp",
+      "url": "https://github.com/SpiceSharp/SpiceSharp",
+      "stars": 322,
+      "lang": "C#",
+      "cn": "基于伯克利 SPICE 的跨平台 C# 电路仿真器（NuGet 可直接引用），便于把仿真能力嵌进 .NET 上位机/测试工具里，做自动化的电流与工作点验算。",
+      "tag": "嵌入式仿真"
+    },
+    {
+      "name": "potatobeanradio/circuitRF",
+      "url": "https://github.com/potatobeanradio/circuitRF",
+      "stars": 241,
+      "lang": "C#",
+      "cn": "跨平台 RF 电路 + 电磁混合仿真器，把原理图级的电路仿真与电磁仿真放在同一工具里，适合射频前端与滤波器设计。",
+      "tag": "RF/电磁"
+    },
+    {
+      "name": "thliebig/openEMS",
+      "url": "https://github.com/thliebig/openEMS",
+      "stars": 768,
+      "lang": "C++",
+      "cn": "开源 3D 全波电磁场求解器（EC-FDTD 方法），可仿真 PCB 走线辐射、天线、腔体谐振、封装与连接器 S 参数，是开源世界里做「电磁仿真」的主力引擎（另有 openEMS-Project 提供完整环境）。",
+      "tag": "电磁场求解"
+    },
+    {
+      "name": "antmicro/gerber2ems",
+      "url": "https://github.com/antmicro/gerber2ems",
+      "stars": 274,
+      "lang": "Python",
+      "cn": "把 Gerber 制造文件直接喂给 openEMS 做 PCB 走线电磁仿真：不需要重画 3D 模型，直接从生产文件出发算传输线阻抗、S 参数与辐射，天然适配「AD 出 Gerber → 电磁仿真」的流程。",
+      "tag": "Gerber→电磁仿真"
+    },
+    {
+      "name": "antmicro/kicad-si-simulation-wrapper",
+      "url": "https://github.com/antmicro/kicad-si-simulation-wrapper",
+      "stars": 42,
+      "lang": "Python",
+      "cn": "为 openEMS 仿真准备并优化 PCB 设计（网络选取、网格与端口自动生成），与 gerber2ems 配套，把板级 SI/EM 仿真的前期工作量压到最低。",
+      "tag": "SI 仿真预处理"
+    },
+    {
+      "name": "ElmerCSC/elmerfem",
+      "url": "https://github.com/ElmerCSC/elmerfem",
+      "stars": 1734,
+      "lang": "Fortran",
+      "cn": "成熟的开源多物理场有限元（FEM）求解器，可做稳态/瞬态热传导、电流传导、静电场/磁场与电磁感应计算，是开源路线里做「热仿真 + 电流密度仿真」最通用的一套引擎。",
+      "tag": "热/多物理场"
+    },
+    {
+      "name": "djsilva99/heatrapy",
+      "url": "https://github.com/djsilva99/heatrapy",
+      "stars": 103,
+      "lang": "Python",
+      "cn": "Python 传热仿真库，可对二维/三维对象做瞬态热传导与相变分析，适合快速估算器件结温、PCB 局部热点与散热路径，脚本化程度高、上手快。",
+      "tag": "热传导仿真"
+    },
+    {
+      "name": "ansys/pyaedt",
+      "url": "https://github.com/ansys/pyaedt",
+      "stars": 404,
+      "lang": "Python",
+      "cn": "Ansys Electronics Desktop 的官方 Python 客户端：用脚本驱动 HFSS（3D 电磁）、SIwave（电源完整性/EMI）、Q3D（寄生参数）、Icepak（热仿真）并调用 AEDT 内置优化器做参数化扫描，是「把 AD 板级数据接入 Ansys 做电-热-磁耦合」最实用的自动化入口。",
+      "tag": "电磁+热 自动化"
+    },
+    {
+      "name": "svd-ai-lab/sim-cli",
+      "url": "https://github.com/svd-ai-lab/sim-cli",
+      "stars": 244,
+      "lang": "Python",
+      "cn": "把既有 CAE 文件（COMSOL、ANSYS 等）转成结构化文本，让 AI Agent 能读懂仿真模型与结果，并可通过配套插件（sim-plugin-comsol）在对话里驱动仿真；代表了「AI 助手上手仿真」的新形态。",
+      "tag": "AI 驱动仿真"
+    },
+    {
+      "name": "MPh-py/MPh",
+      "url": "https://github.com/MPh-py/MPh",
+      "stars": 600,
+      "lang": "Python",
+      "cn": "COMSOL Multiphysics 的 Python 脚本接口：用代码建立几何、设材料、求解并后处理，可做电热耦合、电磁场与传热的多物理场仿真与批量参数化研究。",
+      "tag": "多物理场脚本化"
+    },
+    {
+      "name": "NBalciunas/kicad-rfsim",
+      "url": "https://github.com/NBalciunas/kicad-rfsim",
+      "stars": 102,
+      "lang": "Python",
+      "cn": "KiCad 10 插件，可在板级工具内直接仿真 RF 结构的 S 参数（生成几何并调用求解器），展示了「在 EDA 内部一键做电磁仿真」的可行形态，可作 AD 插件开发思路参考。",
+      "tag": "EDA 内嵌电磁仿真"
+    },
+    {
+      "name": "dwarning/VA-Models",
+      "url": "https://github.com/dwarning/VA-Models",
+      "stars": 119,
+      "lang": "Verilog-A",
+      "cn": "一批 Verilog-A 器件仿真模型（含基础器件与行为级模型），可在 ngspice/Spectre 类仿真器里做器件级电流/电压建模，适合自定义模型的开发与验证。",
+      "tag": "器件级建模"
+    },
+    {
+      "name": "medwatt/gmid",
+      "url": "https://github.com/medwatt/gmid",
+      "stars": 165,
+      "lang": "Python",
+      "cn": "gm/Id 模拟电路设计工具箱：查表、设计曲线与自动多工艺角仿真流程，用于把 MOSFET 的电流-跨导效率直接映射到电路尺寸，是「电流仿真」在模拟设计里的典型应用。",
+      "tag": "模拟电流设计"
+    }
+  ],
+  "altium_ad_tools": [
+    {
+      "name": "salitronic/eda-agent",
+      "url": "https://github.com/salitronic/eda-agent",
+      "stars": 275,
+      "lang": "Python",
+      "cn": "开源的 MCP Server：让 AI 直接驱动一个正在运行的 Altium Designer 会话（读写原理图/PCB、跑 DRC、查库），把 AD 变成可以被 Agent 调用的工具，是「AI + AD」目前最直接的落地方式。",
+      "tag": "AD × MCP"
+    },
+    {
+      "name": "coffeenmusic/altium-mcp",
+      "url": "https://github.com/coffeenmusic/altium-mcp",
+      "stars": 183,
+      "lang": "Pascal",
+      "cn": "Altium Model Context Protocol 服务端 + AD 侧 API 脚本（DelphiScript），为 AI 客户端提供操作 AD 工程的工具接口。",
+      "tag": "AD × MCP"
+    },
+    {
+      "name": "wavenumber-eng/altium_monkey",
+      "url": "https://github.com/wavenumber-eng/altium_monkey",
+      "stars": 210,
+      "lang": "Python",
+      "cn": "altium-monkey：纯 Python 工具包，可直接读取、写入、分析与渲染 Altium 文件（.SchDoc/.PcbDoc/.SchLib/.PcbLib），并支持从自动化脚本调用。做批量导出、SVG 渲染、BOM 与叠层抽取、仿真前后处理脚本时非常省事。",
+      "tag": "AD 文件工具链"
+    },
+    {
+      "name": "Altium-Designer-addons/scripts-libraries",
+      "url": "https://github.com/Altium-Designer-addons/scripts-libraries",
+      "stars": 593,
+      "lang": "DelphiScript",
+      "cn": "AD 官方社区脚本与库合集（DelphiScript / VBScript）：批量修改属性、生成封装与 BOM、设计规则辅助检查等，是 AD 二次开发与自定义「仿真前后处理」脚本的起点。",
+      "tag": "AD 脚本合集"
+    },
+    {
+      "name": "vadmium/python-altium",
+      "url": "https://github.com/vadmium/python-altium",
+      "stars": 195,
+      "lang": "Python",
+      "cn": "Altium 原理图（SchDoc）二进制格式的逆向说明 + SVG 转换器 + Tk 查看器，适合自行解析 AD 文件、批量导出图纸做评审或仿真数据准备。",
+      "tag": "AD 格式解析"
+    },
+    {
+      "name": "gsuberland/altium_js",
+      "url": "https://github.com/gsuberland/altium_js",
+      "stars": 145,
+      "lang": "JavaScript",
+      "cn": "altium.js：浏览器端的 Altium SchDoc 解析与渲染器，可在网页里预览原理图，便于做在线评审与设计归档系统。",
+      "tag": "AD 网页渲染"
+    },
+    {
+      "name": "thesourcerer8/altium2kicad",
+      "url": "https://github.com/thesourcerer8/altium2kicad",
+      "stars": 957,
+      "lang": "Perl",
+      "cn": "把 Altium 工程（原理图 + PCB）转换为 KiCad 的成熟脚本。实用价值在于：AD 侧仿真能力基本是闭源的，转成 KiCad 后即可接入 ngspice（电流仿真）与 openEMS（电磁仿真）这条完全开源的链路。",
+      "tag": "AD→开源仿真链路"
+    },
+    {
+      "name": "ayberkozgur/jlcpcb-design-rules-stackups",
+      "url": "https://github.com/ayberkozgur/jlcpcb-design-rules-stackups",
+      "stars": 296,
+      "lang": "Altium 规则文件",
+      "cn": "嘉立创（JLCPCB）的工艺规则与叠层文件，可直接导入 AD 的 Design Rules 与 Layer Stack Manager：把叠层和阻抗参数先固化，后续的电-热-磁仿真才有可信的几何与材料输入。",
+      "tag": "叠层/材料输入"
+    },
+    {
+      "name": "Travelerrrrrr/LCSC3D",
+      "url": "https://github.com/Travelerrrrrr/LCSC3D",
+      "stars": 104,
+      "lang": "Python",
+      "cn": "按立创商城 C 编号批量下载 STEP/OBJ 3D 模型并导出为 AD 的 SchLib/PcbLib（含嵌入 STEP）。做热仿真与结构装配检查时，准确的 3D 模型是前提（体积、散热面积、贴板高度）。",
+      "tag": "3D 模型/热仿真输入"
+    },
+    {
+      "name": "embedded-society/altium-designer-mcp",
+      "url": "https://github.com/embedded-society/altium-designer-mcp",
+      "stars": 84,
+      "lang": "Python",
+      "cn": "面向 AI 辅助管理 Altium Designer 元件库的 MCP 服务端，用于库的批量查询与维护。",
+      "tag": "AD 库管理"
+    },
+    {
+      "name": "Yverr0y/mcp-pcb-emcopilot",
+      "url": "https://github.com/Yverr0y/mcp-pcb-emcopilot",
+      "stars": 4,
+      "lang": "Python",
+      "cn": "实验性 AI PCB 设计评审工具，覆盖 EMC、信号完整性、电源完整性与热设计检查项，可作「把仿真/评审经验固化进 Agent」的思路参考（星数很低、仅供参考）。",
+      "tag": "EMC/SI/PI/热 评审"
+    },
+    {
+      "name": "issus/altium-library",
+      "url": "https://github.com/issus/altium-library",
+      "stars": 2528,
+      "lang": "Altium 数据库库",
+      "cn": "开源 Altium 数据库元件库，含 20 万+ 高质量器件（符号/封装/参数一体），可挂进 AD 直接取用，是建库与选型的基础设施。",
+      "tag": "AD 器件库"
+    }
+  ],
+  "conclusions": [
+    "【最重要的结论】GitHub 上不存在「直接嵌进 Altium Designer 内部、开箱做电流/热/电磁仿真」的成熟开源插件。AD 22+ 的仿真能力由三条官方/商业线构成，且三条线各管一块：① 电流 → Power Analyzer by Keysight（AD 22.10+ 扩展，PI-DC：电压降/电流密度/过孔电流）；② 高速信号/电磁 → SI Analyzer by Keysight（Open Beta：阻抗/延迟/插入损耗/回波损耗）；③ 热 → AD 无原生求解器，必须走 Ansys Icepak（可直接导入 AD 的 ECAD 数据，并与 SIwave/Q3D/HFSS 做焦耳热与电磁-热耦合）。",
+    "务实的落地组合是「AD 出数据 → 求经济性用开源引擎算」：用 wavenumber-eng/altium_monkey、vadmium/python-altium、Altium-Designer-addons 脚本把叠层、网表、Gerber、3D 模型导出来，再接 ngspice / PySpice / Xyce（电流与瞬态）、Elmer FEM / heatrapy（热传导与结温）、openEMS / antmicro gerber2ems（走线电磁与 S 参数）做批量参数扫描——这批引擎免费且可脚本化，适合做设计前期的探索与回归。",
+    "若希望「在 EDA 内部一键仿真」，目前成熟的开源样本全部长在 KiCad 生态（NBalciunas/kicad-rfsim 直接算 S 参数、antmicro/kicad-si-simulation-wrapper 准备 openEMS 仿真、aklofas/kicad-happy 做 AI 辅助评审）。把 AD 工程经 thesourcerer8/altium2kicad 转成 KiCad，是成本最低的开源仿真落地路径。",
+    "AI + 仿真正在快速成型，值得先小范围试点：salitronic/eda-agent 与 coffeenmusic/altium-mcp 能让 Agent 直接驱动活的 AD 会话；ansys/pyaedt 用 Python 脚本化 HFSS/SIwave/Q3D/Icepak；MPh-py/MPh 脚本化 COMSOL；svd-ai-lab/sim-cli 把 COMSOL/ANSYS 的 CAE 文件转成结构化文本交给 Agent 读写。方向是「自然语言 → 参数化建模 → 批量求解 → 结果解读」。",
+    "采购视角的提醒：Power Analyzer 与 SI Analyzer 都需要在 AD 许可之外单独授权（SI Analyzer 目前 Open Beta），Ansys Icepak/SIwave/Q3D/HFSS 是另一套预算。若只是想先在板级看电流密度与压降，先申请 Power Analyzer 试用往往比买整套 Ansys 更划算。"
+  ]
+}
