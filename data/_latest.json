@@ -1,36 +1,36 @@
 {
   "date": "2026-11-02",
-  "generated": "2026-11-02 09:23",
+  "generated": "2026-11-02 09:41",
   "top50_count": 50,
-  "top50_avg_velocity": 785.4,
-  "top50_total_stars": 5211732,
+  "top50_avg_velocity": 784.6,
+  "top50_total_stars": 5252720,
   "hw10_count": 20,
   "altium_entries": 36,
   "top5": [
     {
       "rank": 1,
       "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3313.3
+      "velocity": 3313.6
     },
     {
       "rank": 2,
       "name": "Gathin23/cleanyourtv",
-      "velocity": 3075.8
+      "velocity": 3076.3
     },
     {
       "rank": 3,
       "name": "storytold/photocraft",
-      "velocity": 2300.0
+      "velocity": 2300.1
     },
     {
       "rank": 4,
       "name": "morluto/rea",
-      "velocity": 2073.5
+      "velocity": 2073.8
     },
     {
       "rank": 5,
       "name": "deepseek-ai/DeepInfer",
-      "velocity": 1459.7
+      "velocity": 1459.9
     }
   ]
 }
