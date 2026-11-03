@@ -1,36 +1,36 @@
 {
-  "date": "2026-11-02",
-  "generated": "2026-11-02 09:41",
+  "date": "2026-11-03",
+  "generated": "2026-11-03 09:38",
   "top50_count": 50,
-  "top50_avg_velocity": 784.6,
-  "top50_total_stars": 5252720,
+  "top50_avg_velocity": 1217.2,
+  "top50_total_stars": 5468603,
   "hw10_count": 20,
   "altium_entries": 36,
   "top5": [
     {
       "rank": 1,
-      "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3313.6
+      "name": "morluto/rea",
+      "velocity": 14070.1
     },
     {
       "rank": 2,
-      "name": "Gathin23/cleanyourtv",
-      "velocity": 3076.3
+      "name": "deepseek-ai/deepseek-harness",
+      "velocity": 3288.6
     },
     {
       "rank": 3,
-      "name": "storytold/photocraft",
-      "velocity": 2300.1
+      "name": "Gathin23/cleanyourtv",
+      "velocity": 2968.2
     },
     {
       "rank": 4,
-      "name": "morluto/rea",
-      "velocity": 2073.8
+      "name": "storytold/photocraft",
+      "velocity": 2242.1
     },
     {
       "rank": 5,
-      "name": "deepseek-ai/DeepInfer",
-      "velocity": 1459.9
+      "name": "thedotmack/claude-mem",
+      "velocity": 1803.0
     }
   ]
 }
