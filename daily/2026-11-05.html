@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GitHub 高增长项目 Top50 · 硬件高速设计 · Altium 22+ 仿真调研</title>
+<title>GitHub 高增长项目 Top50 · 硬件高速设计 · Altium 22+ 仿真 · 电机算法调研</title>
 <style>
 :root{--bg:#0d1117;--panel:#161b22;--panel2:#1c2128;--line:#30363d;--fg:#e6edf3;
 --fg2:#9198a1;--accent:#58a6ff;--hot:#ff7b72;--green:#3fb950;--tagbg:#1f6feb22;--tagfg:#79c0ff;}
@@ -53,8 +53,8 @@ padding:9px 24px;font:13.5px/1.5 'Segoe UI','Microsoft YaHei',system-ui,sans-ser
 <span style="margin-left:16px">快照日期 <b style="color:#e6edf3">2026-11-05</b></span>
 </div><div class="wrap">
 <header>
-<h1>GitHub <span>Star 高速增长项目 Top 50</span> · 硬件电路 / 高速硬件设计 20 选 · <span>Altium Designer 22+ 仿真生态</span>专题</h1>
-<div class="meta">数据采集时间：<b>2026-11-05 10:25（GMT+8）</b>　|　数据源：<b>GitHub Trending</b>（日/周/月榜 + Python/JS/TS/Rust/Go/Java/C/C++ 分语言榜）、<b>GitHub Search API</b>（近 30/60 天新建高星库、近 7 天活跃高星库、topic 与关键词检索，共 34 组查询）　|　本期候选池：<b>1149</b> 个去重仓库</div>
+<h1>GitHub <span>Star 高速增长项目 Top 50</span> · 硬件电路 / 高速硬件设计 20 选 · <span>Altium Designer 22+ 仿真生态</span> · <span>电机算法 / 有感无感切换</span>专题</h1>
+<div class="meta">数据采集时间：<b>2026-11-05 10:31（GMT+8）</b>　|　数据源：<b>GitHub Trending</b>（日/周/月榜 + Python/JS/TS/Rust/Go/Java/C/C++ 分语言榜）、<b>GitHub Search API</b>（近 30/60 天新建高星库、近 7 天活跃高星库、topic 与关键词检索，共 34 组查询）　|　本期候选池：<b>1149</b> 个去重仓库</div>
 </header>
 <div class="kpi">
 <div><b>50</b><span>高增长项目（Top 50）</span></div>
@@ -240,7 +240,37 @@ padding:9px 24px;font:13.5px/1.5 'Segoe UI','Microsoft YaHei',system-ui,sans-ser
 <tr><td class="repo"><a href="https://github.com/Yverr0y/mcp-pcb-emcopilot" target="_blank">Yverr0y/mcp-pcb-emcopilot</a><div style="color:#9198a1;font-size:12px">★ 4　Python</div></td><td><span class="tag g">EMC/SI/PI/热 评审</span></td><td class="desc">实验性 AI PCB 设计评审工具，覆盖 EMC、信号完整性、电源完整性与热设计检查项，可作「把仿真/评审经验固化进 Agent」的思路参考（星数很低、仅供参考）。</td></tr>
 <tr><td class="repo"><a href="https://github.com/issus/altium-library" target="_blank">issus/altium-library</a><div style="color:#9198a1;font-size:12px">★ 2,533　Altium 数据库库</div></td><td><span class="tag g">AD 器件库</span></td><td class="desc">开源 Altium 数据库元件库，含 20 万+ 高质量器件（符号/封装/参数一体），可挂进 AD 直接取用，是建库与选型的基础设施。</td></tr>
 </tbody></table></div>
-<h2>四、落地建议</h2>
+<h2>四、电机算法专题（FOC · 有感/无感切换 · 20 条）</h2>
+<div class="ok"><b>怎么看这张表：</b>「有感」指用霍尔 / 增量编码器 / 磁编码器 / 旋变提供转子位置；「无感」指靠反电动势过零、磁链观测器（SMO / 全阶观测器）或高频注入（HFI）估算位置。真正难的是<b>切换</b>：零速与大电流时无感观测器不可观测，必须先用开环强拖或 HFI 起转，到了能稳定观测的转速再切到无感，反向减速时又要切回有感。表中带 <b>★ 切换</b> 标记的 6 个项目，是有感/无感双后端或明确支持切换的实现，建议优先看。</div>
+<div class="card"><table class="">
+<thead><tr>
+<th>#</th>
+<th>仓库 / 语言</th>
+<th>类型</th>
+<th>项目作用（中文说明）</th>
+</tr></thead><tbody>
+<tr><td class="n">1</td><td class="repo"><a href="https://github.com/odriverobotics/ODrive" target="_blank">odriverobotics/ODrive</a><div style="color:#9198a1;font-size:12px">★ 3,826　C++</div></td><td><span class="tag">有感（编码器）</span></td><td class="desc">机器人关节级伺服驱动器固件与硬件参考设计，基于编码器做 FOC 闭环，提供电流/速度/位置三环、齿槽转矩补偿（anticogging）、弱磁扩速与再生制动。工程化程度高，是「有感高精度伺服」路线最常被对标的实现。</td></tr>
+<tr><td class="n">2</td><td class="repo"><a href="https://github.com/vedderb/bldc" target="_blank">vedderb/bldc</a><div style="color:#9198a1;font-size:12px">★ 3,561　C</div></td><td><span class="tag y">★ 切换</span> <span class="tag">有感/无感切换</span></td><td class="desc">VESC 电调固件，社区里「有感无感切换」最完整的工程实现：支持霍尔、增量/绝对值编码器、无感反电动势磁链观测器，以及零速无感的高频注入（HFI）；配合自动电机参数辨识（R/L/磁链）可在有传感器与无感之间按转速区间切换，电动滑板/电摩/机器人关节大量在用。</td></tr>
+<tr><td class="n">3</td><td class="repo"><a href="https://github.com/simplefoc/Arduino-FOC" target="_blank">simplefoc/Arduino-FOC</a><div style="color:#9198a1;font-size:12px">★ 3,097　C++</div></td><td><span class="tag y">★ 切换</span> <span class="tag">有感/无感（含开环）</span></td><td class="desc">Arduino 生态最流行的 FOC 库，抽象出「电机 + 传感器 + 驱动器 + 电流采样」四件套，原生支持开环电压/速度、编码器/霍尔/磁编码器闭环，并提供反电动势观测器的无感示例；代码可读性极好，是理解 FOC 从开环到闭环、从有感切无感全过程的最佳教材级实现。</td></tr>
+<tr><td class="n">4</td><td class="repo"><a href="https://github.com/EFeru/hoverboard-firmware-hack-FOC" target="_blank">EFeru/hoverboard-firmware-hack-FOC</a><div style="color:#9198a1;font-size:12px">★ 1,836　C</div></td><td><span class="tag">有感（霍尔）</span></td><td class="desc">把廉价双轮平衡车主板改造成通用 FOC 驱动器的固件，用霍尔换向 + 电流环做正弦驱动，支持力矩/速度/位置模式与 UART/PWM/CAN 控制。硬件成本极低，适合快速验证电机算法而不必自己画功率板。</td></tr>
+<tr><td class="n">5</td><td class="repo"><a href="https://github.com/Sguan-ZhouQing/SguanFOC_Library" target="_blank">Sguan-ZhouQing/SguanFOC_Library</a><div style="color:#9198a1;font-size:12px">★ 1,138　C</div></td><td><span class="tag y">★ 切换</span> <span class="tag">有感/无感切换</span></td><td class="desc">国产 PMSM 磁场定向控制库，官方定位就是「有传感器 / 无传感器统一方案」：基于 SVPWM 集成电流环、速度环、位置环三种模式，接口按有感与无感两套后端抽象，切换只需换观测器/传感器实现。中文注释与文档齐全，对做有感无感平滑切换的国内项目参考价值很高。</td></tr>
+<tr><td class="n">6</td><td class="repo"><a href="https://github.com/ZhuYanzhen1/miniFOC" target="_blank">ZhuYanzhen1/miniFOC</a><div style="color:#9198a1;font-size:12px">★ 1,115　C++</div></td><td><span class="tag">有感（磁编码器）</span></td><td class="desc">「二十块钱搞定无刷 FOC」的低成本方案，软硬件全开源：磁编码器（AS5600 类）做位置反馈，实现电流/速度/位置三环与力矩模式。适合作为云台、机械臂关节的低价有感驱动参考。</td></tr>
+<tr><td class="n">7</td><td class="repo"><a href="https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware" target="_blank">AlkaMotors/AM32-MultiRotor-ESC-firmware</a><div style="color:#9198a1;font-size:12px">★ 1,090　C</div></td><td><span class="tag">无感（反电动势）</span></td><td class="desc">面向多旋翼的 32 位电调固件（STM32F051 等），纯无感反电动势过零换向，支持双向 DShot、可调 PWM 频率与堵转保护。是「高速无感启动」这条路线最主流的开源实现之一。</td></tr>
+<tr><td class="n">8</td><td class="repo"><a href="https://github.com/WangXuan95/FPGA-FOC" target="_blank">WangXuan95/FPGA-FOC</a><div style="color:#9198a1;font-size:12px">★ 994　Verilog</div></td><td><span class="tag">无感（FPGA 硬件化）</span></td><td class="desc">用 Verilog 把整套无感 FOC 做进 FPGA：SVPWM 生成、Clarke/Park 变换、电流环 PI 与转子位置观测全部硬件并行执行，控制环延迟低到微秒级。想研究「算法硬件化 / 超高开关频率」时不可多得的参考。</td></tr>
+<tr><td class="n">9</td><td class="repo"><a href="https://github.com/rene-dev/stmbl" target="_blank">rene-dev/stmbl</a><div style="color:#9198a1;font-size:12px">★ 990　C</div></td><td><span class="tag">有感（旋变/编码器）</span></td><td class="desc">STM32F4 平台的开源交流伺服驱动器，支持旋转变压器与增量编码器反馈，完整实现电流环、速度环、位置环及伺服使能/抱闸时序。定位是「工业伺服」而非航模电调，适合做高精度有感伺服参考。</td></tr>
+<tr><td class="n">10</td><td class="repo"><a href="https://github.com/mathiasvr/bluejay" target="_blank">mathiasvr/bluejay</a><div style="color:#9198a1;font-size:12px">★ 565　Assembly</div></td><td><span class="tag">无感（反电动势）</span></td><td class="desc">基于 BLHeli-S 的无感电调固件，主打 24/48/96 kHz 高 PWM 频率、平滑启动与低转速效率优化，配套 ESC 配置工具。研究无感换向时序与 PWM 频率取舍时非常实用。</td></tr>
+<tr><td class="n">11</td><td class="repo"><a href="https://github.com/shamansystems/Cheap-FOCer-2" target="_blank">shamansystems/Cheap-FOCer-2</a><div style="color:#9198a1;font-size:12px">★ 407　C</div></td><td><span class="tag y">★ 切换</span> <span class="tag">有感/无感切换</span></td><td class="desc">低成本 VESC 6 衍生功率板（DRV8301 + STM32F4），直接跑 VESC 固件，因此天然继承 VESC 的霍尔/编码器/无感磁链观测器/HFI 全套方案。想低成本复现「有感无感切换」整机时，这是性价比最高的硬件入口。</td></tr>
+<tr><td class="n">12</td><td class="repo"><a href="https://github.com/EFeru/bldc-motor-control-FOC" target="_blank">EFeru/bldc-motor-control-FOC</a><div style="color:#9198a1;font-size:12px">★ 385　C</div></td><td><span class="tag">有感（霍尔）</span></td><td class="desc">精简版 STM32 BLDC 的 FOC 实现，从霍尔换向讲到电流采样与 SVPWM，代码量小、层次清晰，适合作为把 FOC 理论第一次落到 MCU 上的入门工程。</td></tr>
+<tr><td class="n">13</td><td class="repo"><a href="https://github.com/ClemensElflein/xESC" target="_blank">ClemensElflein/xESC</a><div style="color:#9198a1;font-size:12px">★ 378　C</div></td><td><span class="tag y">★ 切换</span> <span class="tag">有感/无感（可选）</span></td><td class="desc">易用型开源电调（ESC）固件与硬件，抽象出统一的「电机接口」，可挂霍尔传感器也可跑无感反电动势，支持 UART/CAN 控制与温度、电流保护，适合机器人底盘与轻型载具。</td></tr>
+<tr><td class="n">14</td><td class="repo"><a href="https://github.com/Staok/iBLDC" target="_blank">Staok/iBLDC</a><div style="color:#9198a1;font-size:12px">★ 330　—</div></td><td><span class="tag">算法资料汇总</span></td><td class="desc">作者对 BLDC/PMSM 驱动做的系统性资料整理：从电机本体、功率级、采样电路到 FOC/无感观测器算法与量产踩坑，按主题归档。做方案选型与算法补课时，比零散博客可靠得多。</td></tr>
+<tr><td class="n">15</td><td class="repo"><a href="https://github.com/sirojudinMunir/stm32-FOC" target="_blank">sirojudinMunir/stm32-FOC</a><div style="color:#9198a1;font-size:12px">★ 325　C</div></td><td><span class="tag">有感（编码器）</span></td><td class="desc">STM32 上的 FOC 教学实现，聚焦 Clarke/Park 变换、电流环整定与编码器测速，结构简单、注释直白，适合用来对照自己的实现排查符号与坐标变换错误。</td></tr>
+<tr><td class="n">16</td><td class="repo"><a href="https://github.com/motionlayer/Tinymovr" target="_blank">motionlayer/Tinymovr</a><div style="color:#9198a1;font-size:12px">★ 322　C</div></td><td><span class="tag">有感（集成磁编码器）</span></td><td class="desc">把 FOC 驱动器、绝对角度磁编码器与 CAN 通信集成在一张小板上（支持 NEMA17 等步进/无刷电机），出厂即带位置/速度/力矩与轨迹模式，是机械臂关节与桌面机器人常用的紧凑型有感伺服方案。</td></tr>
+<tr><td class="n">17</td><td class="repo"><a href="https://github.com/davidmolony/MESC_Firmware" target="_blank">davidmolony/MESC_Firmware</a><div style="color:#9198a1;font-size:12px">★ 287　C</div></td><td><span class="tag">有感/无感（库化）</span></td><td class="desc">面向带 FPU 的 STM32 全系列的 FOC 库，把 BLDC/PMSM 的电流采样、SVPWM、观测器与保护逻辑做成可裁剪模块，方便在自己的工程里直接引用而不是从零移植。</td></tr>
+<tr><td class="n">18</td><td class="repo"><a href="https://github.com/Aalto-Electric-Drives/motulator" target="_blank">Aalto-Electric-Drives/motulator</a><div style="color:#9198a1;font-size:12px">★ 260　Python</div></td><td><span class="tag y">★ 切换</span> <span class="tag">无感（观测器/仿真）</span></td><td class="desc">阿尔托大学电机驱动课程配套的 Python 仿真库，内置电机与逆变器模型、电流环/速度环、以及全阶磁链观测器等无感控制算法，可在不改硬件的情况下先验证有感/无感切换逻辑与参数敏感性，再下到 MCU。</td></tr>
+<tr><td class="n">19</td><td class="repo"><a href="https://github.com/huyanghong/Foc-Controller" target="_blank">huyanghong/Foc-Controller</a><div style="color:#9198a1;font-size:12px">★ 224　C</div></td><td><span class="tag">有感（软硬件全栈）</span></td><td class="desc">无刷电机驱动器软硬件一体开源工程，含原理图、PCB 与固件，实现了完整三环 FOC 与上位机调试接口，适合作为自研驱动器时的硬件基线参考。</td></tr>
+<tr><td class="n">20</td><td class="repo"><a href="https://github.com/haotianh9/DengFOC_on_STM32" target="_blank">haotianh9/DengFOC_on_STM32</a><div style="color:#9198a1;font-size:12px">★ 216　C</div></td><td><span class="tag">有感（磁编码器）</span></td><td class="desc">灯哥开源 FOC（DengFOC）在 STM32 上的实现，配磁编码器做闭环，代码风格贴近 Arduino SimpleFOC 但更轻量，国内教程与配套视频多，上手门槛低。</td></tr>
+</tbody></table></div>
+<h2>五、落地建议</h2>
 <div class="ok"><ol class="conc">
 <li>【最重要的结论】GitHub 上不存在「直接嵌进 Altium Designer 内部、开箱做电流/热/电磁仿真」的成熟开源插件。AD 22+ 的仿真能力由三条官方/商业线构成，且三条线各管一块：① 电流 → Power Analyzer by Keysight（AD 22.10+ 扩展，PI-DC：电压降/电流密度/过孔电流）；② 高速信号/电磁 → SI Analyzer by Keysight（Open Beta：阻抗/延迟/插入损耗/回波损耗）；③ 热 → AD 无原生求解器，必须走 Ansys Icepak（可直接导入 AD 的 ECAD 数据，并与 SIwave/Q3D/HFSS 做焦耳热与电磁-热耦合）。</li>
 <li>务实的落地组合是「AD 出数据 → 求经济性用开源引擎算」：用 wavenumber-eng/altium_monkey、vadmium/python-altium、Altium-Designer-addons 脚本把叠层、网表、Gerber、3D 模型导出来，再接 ngspice / PySpice / Xyce（电流与瞬态）、Elmer FEM / heatrapy（热传导与结温）、openEMS / antmicro gerber2ems（走线电磁与 S 参数）做批量参数扫描——这批引擎免费且可脚本化，适合做设计前期的探索与回归。</li>
@@ -248,5 +278,5 @@ padding:9px 24px;font:13.5px/1.5 'Segoe UI','Microsoft YaHei',system-ui,sans-ser
 <li>AI + 仿真正在快速成型，值得先小范围试点：salitronic/eda-agent 与 coffeenmusic/altium-mcp 能让 Agent 直接驱动活的 AD 会话；ansys/pyaedt 用 Python 脚本化 HFSS/SIwave/Q3D/Icepak；MPh-py/MPh 脚本化 COMSOL；svd-ai-lab/sim-cli 把 COMSOL/ANSYS 的 CAE 文件转成结构化文本交给 Agent 读写。方向是「自然语言 → 参数化建模 → 批量求解 → 结果解读」。</li>
 <li>采购视角的提醒：Power Analyzer 与 SI Analyzer 都需要在 AD 许可之外单独授权（SI Analyzer 目前 Open Beta），Ansys Icepak/SIwave/Q3D/HFSS 是另一套预算。若只是想先在板级看电流密度与压降，先申请 Power Analyzer 试用往往比买整套 Ansys 更划算。</li>
 </ol></div>
-<footer>本报告由自动采集 + 人工整理生成　·　采集时间 2026-11-05 10:25（GMT+8）　·　Star 数、增速、语言信息均来自 GitHub 官方 Trending 页面与 REST API 实时抓取，由于 Star 数持续变动，数值仅代表采集时刻的快照。商用/选型前请以仓库自身文档为准。</footer>
+<footer>本报告由自动采集 + 人工整理生成　·　采集时间 2026-11-05 10:31（GMT+8）　·　Star 数、增速、语言信息均来自 GitHub 官方 Trending 页面与 REST API 实时抓取，由于 Star 数持续变动，数值仅代表采集时刻的快照。商用/选型前请以仓库自身文档为准。</footer>
 </div></body></html>

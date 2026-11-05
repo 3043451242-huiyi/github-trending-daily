@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05 10:25",
+  "generated": "2026-11-05 10:31",
   "top50": [
     {
       "rank": 1,
@@ -1133,6 +1133,188 @@
       "lang": "Altium 数据库库",
       "cn": "开源 Altium 数据库元件库，含 20 万+ 高质量器件（符号/封装/参数一体），可挂进 AD 直接取用，是建库与选型的基础设施。",
       "tag": "AD 器件库"
+    }
+  ],
+  "motor": [
+    {
+      "name": "odriverobotics/ODrive",
+      "url": "https://github.com/odriverobotics/ODrive",
+      "stars": 3826,
+      "lang": "C++",
+      "switch": false,
+      "tag": "有感（编码器）",
+      "cn": "机器人关节级伺服驱动器固件与硬件参考设计，基于编码器做 FOC 闭环，提供电流/速度/位置三环、齿槽转矩补偿（anticogging）、弱磁扩速与再生制动。工程化程度高，是「有感高精度伺服」路线最常被对标的实现。"
+    },
+    {
+      "name": "vedderb/bldc",
+      "url": "https://github.com/vedderb/bldc",
+      "stars": 3561,
+      "lang": "C",
+      "switch": true,
+      "tag": "有感/无感切换",
+      "cn": "VESC 电调固件，社区里「有感无感切换」最完整的工程实现：支持霍尔、增量/绝对值编码器、无感反电动势磁链观测器，以及零速无感的高频注入（HFI）；配合自动电机参数辨识（R/L/磁链）可在有传感器与无感之间按转速区间切换，电动滑板/电摩/机器人关节大量在用。"
+    },
+    {
+      "name": "simplefoc/Arduino-FOC",
+      "url": "https://github.com/simplefoc/Arduino-FOC",
+      "stars": 3097,
+      "lang": "C++",
+      "switch": true,
+      "tag": "有感/无感（含开环）",
+      "cn": "Arduino 生态最流行的 FOC 库，抽象出「电机 + 传感器 + 驱动器 + 电流采样」四件套，原生支持开环电压/速度、编码器/霍尔/磁编码器闭环，并提供反电动势观测器的无感示例；代码可读性极好，是理解 FOC 从开环到闭环、从有感切无感全过程的最佳教材级实现。"
+    },
+    {
+      "name": "EFeru/hoverboard-firmware-hack-FOC",
+      "url": "https://github.com/EFeru/hoverboard-firmware-hack-FOC",
+      "stars": 1836,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（霍尔）",
+      "cn": "把廉价双轮平衡车主板改造成通用 FOC 驱动器的固件，用霍尔换向 + 电流环做正弦驱动，支持力矩/速度/位置模式与 UART/PWM/CAN 控制。硬件成本极低，适合快速验证电机算法而不必自己画功率板。"
+    },
+    {
+      "name": "Sguan-ZhouQing/SguanFOC_Library",
+      "url": "https://github.com/Sguan-ZhouQing/SguanFOC_Library",
+      "stars": 1138,
+      "lang": "C",
+      "switch": true,
+      "tag": "有感/无感切换",
+      "cn": "国产 PMSM 磁场定向控制库，官方定位就是「有传感器 / 无传感器统一方案」：基于 SVPWM 集成电流环、速度环、位置环三种模式，接口按有感与无感两套后端抽象，切换只需换观测器/传感器实现。中文注释与文档齐全，对做有感无感平滑切换的国内项目参考价值很高。"
+    },
+    {
+      "name": "ZhuYanzhen1/miniFOC",
+      "url": "https://github.com/ZhuYanzhen1/miniFOC",
+      "stars": 1115,
+      "lang": "C++",
+      "switch": false,
+      "tag": "有感（磁编码器）",
+      "cn": "「二十块钱搞定无刷 FOC」的低成本方案，软硬件全开源：磁编码器（AS5600 类）做位置反馈，实现电流/速度/位置三环与力矩模式。适合作为云台、机械臂关节的低价有感驱动参考。"
+    },
+    {
+      "name": "AlkaMotors/AM32-MultiRotor-ESC-firmware",
+      "url": "https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware",
+      "stars": 1090,
+      "lang": "C",
+      "switch": false,
+      "tag": "无感（反电动势）",
+      "cn": "面向多旋翼的 32 位电调固件（STM32F051 等），纯无感反电动势过零换向，支持双向 DShot、可调 PWM 频率与堵转保护。是「高速无感启动」这条路线最主流的开源实现之一。"
+    },
+    {
+      "name": "WangXuan95/FPGA-FOC",
+      "url": "https://github.com/WangXuan95/FPGA-FOC",
+      "stars": 994,
+      "lang": "Verilog",
+      "switch": false,
+      "tag": "无感（FPGA 硬件化）",
+      "cn": "用 Verilog 把整套无感 FOC 做进 FPGA：SVPWM 生成、Clarke/Park 变换、电流环 PI 与转子位置观测全部硬件并行执行，控制环延迟低到微秒级。想研究「算法硬件化 / 超高开关频率」时不可多得的参考。"
+    },
+    {
+      "name": "rene-dev/stmbl",
+      "url": "https://github.com/rene-dev/stmbl",
+      "stars": 990,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（旋变/编码器）",
+      "cn": "STM32F4 平台的开源交流伺服驱动器，支持旋转变压器与增量编码器反馈，完整实现电流环、速度环、位置环及伺服使能/抱闸时序。定位是「工业伺服」而非航模电调，适合做高精度有感伺服参考。"
+    },
+    {
+      "name": "mathiasvr/bluejay",
+      "url": "https://github.com/mathiasvr/bluejay",
+      "stars": 565,
+      "lang": "Assembly",
+      "switch": false,
+      "tag": "无感（反电动势）",
+      "cn": "基于 BLHeli-S 的无感电调固件，主打 24/48/96 kHz 高 PWM 频率、平滑启动与低转速效率优化，配套 ESC 配置工具。研究无感换向时序与 PWM 频率取舍时非常实用。"
+    },
+    {
+      "name": "shamansystems/Cheap-FOCer-2",
+      "url": "https://github.com/shamansystems/Cheap-FOCer-2",
+      "stars": 407,
+      "lang": "C",
+      "switch": true,
+      "tag": "有感/无感切换",
+      "cn": "低成本 VESC 6 衍生功率板（DRV8301 + STM32F4），直接跑 VESC 固件，因此天然继承 VESC 的霍尔/编码器/无感磁链观测器/HFI 全套方案。想低成本复现「有感无感切换」整机时，这是性价比最高的硬件入口。"
+    },
+    {
+      "name": "EFeru/bldc-motor-control-FOC",
+      "url": "https://github.com/EFeru/bldc-motor-control-FOC",
+      "stars": 385,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（霍尔）",
+      "cn": "精简版 STM32 BLDC 的 FOC 实现，从霍尔换向讲到电流采样与 SVPWM，代码量小、层次清晰，适合作为把 FOC 理论第一次落到 MCU 上的入门工程。"
+    },
+    {
+      "name": "ClemensElflein/xESC",
+      "url": "https://github.com/ClemensElflein/xESC",
+      "stars": 378,
+      "lang": "C",
+      "switch": true,
+      "tag": "有感/无感（可选）",
+      "cn": "易用型开源电调（ESC）固件与硬件，抽象出统一的「电机接口」，可挂霍尔传感器也可跑无感反电动势，支持 UART/CAN 控制与温度、电流保护，适合机器人底盘与轻型载具。"
+    },
+    {
+      "name": "Staok/iBLDC",
+      "url": "https://github.com/Staok/iBLDC",
+      "stars": 330,
+      "lang": "—",
+      "switch": false,
+      "tag": "算法资料汇总",
+      "cn": "作者对 BLDC/PMSM 驱动做的系统性资料整理：从电机本体、功率级、采样电路到 FOC/无感观测器算法与量产踩坑，按主题归档。做方案选型与算法补课时，比零散博客可靠得多。"
+    },
+    {
+      "name": "sirojudinMunir/stm32-FOC",
+      "url": "https://github.com/sirojudinMunir/stm32-FOC",
+      "stars": 325,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（编码器）",
+      "cn": "STM32 上的 FOC 教学实现，聚焦 Clarke/Park 变换、电流环整定与编码器测速，结构简单、注释直白，适合用来对照自己的实现排查符号与坐标变换错误。"
+    },
+    {
+      "name": "motionlayer/Tinymovr",
+      "url": "https://github.com/motionlayer/Tinymovr",
+      "stars": 322,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（集成磁编码器）",
+      "cn": "把 FOC 驱动器、绝对角度磁编码器与 CAN 通信集成在一张小板上（支持 NEMA17 等步进/无刷电机），出厂即带位置/速度/力矩与轨迹模式，是机械臂关节与桌面机器人常用的紧凑型有感伺服方案。"
+    },
+    {
+      "name": "davidmolony/MESC_Firmware",
+      "url": "https://github.com/davidmolony/MESC_Firmware",
+      "stars": 287,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感/无感（库化）",
+      "cn": "面向带 FPU 的 STM32 全系列的 FOC 库，把 BLDC/PMSM 的电流采样、SVPWM、观测器与保护逻辑做成可裁剪模块，方便在自己的工程里直接引用而不是从零移植。"
+    },
+    {
+      "name": "Aalto-Electric-Drives/motulator",
+      "url": "https://github.com/Aalto-Electric-Drives/motulator",
+      "stars": 260,
+      "lang": "Python",
+      "switch": true,
+      "tag": "无感（观测器/仿真）",
+      "cn": "阿尔托大学电机驱动课程配套的 Python 仿真库，内置电机与逆变器模型、电流环/速度环、以及全阶磁链观测器等无感控制算法，可在不改硬件的情况下先验证有感/无感切换逻辑与参数敏感性，再下到 MCU。"
+    },
+    {
+      "name": "huyanghong/Foc-Controller",
+      "url": "https://github.com/huyanghong/Foc-Controller",
+      "stars": 224,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（软硬件全栈）",
+      "cn": "无刷电机驱动器软硬件一体开源工程，含原理图、PCB 与固件，实现了完整三环 FOC 与上位机调试接口，适合作为自研驱动器时的硬件基线参考。"
+    },
+    {
+      "name": "haotianh9/DengFOC_on_STM32",
+      "url": "https://github.com/haotianh9/DengFOC_on_STM32",
+      "stars": 216,
+      "lang": "C",
+      "switch": false,
+      "tag": "有感（磁编码器）",
+      "cn": "灯哥开源 FOC（DengFOC）在 STM32 上的实现，配磁编码器做闭环，代码风格贴近 Arduino SimpleFOC 但更轻量，国内教程与配套视频多，上手门槛低。"
     }
   ],
   "conclusions": [

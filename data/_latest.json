@@ -1,11 +1,13 @@
 {
   "date": "2026-11-05",
-  "generated": "2026-11-05 10:26",
+  "generated": "2026-11-05 10:31",
   "top50_count": 50,
   "top50_avg_velocity": 1186.6,
   "top50_total_stars": 5520002,
   "hw10_count": 20,
   "altium_entries": 36,
+  "motor_entries": 20,
+  "motor_switch_entries": 6,
   "top5": [
     {
       "rank": 1,
