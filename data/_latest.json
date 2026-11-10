@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-09",
-  "generated": "2026-11-09 09:38",
+  "date": "2026-11-10",
+  "generated": "2026-11-10 09:48",
   "top50_count": 50,
-  "top50_avg_velocity": 1115.8,
-  "top50_total_stars": 5565406,
+  "top50_avg_velocity": 720.9,
+  "top50_total_stars": 5524245,
   "hw10_count": 20,
   "altium_entries": 36,
   "motor_entries": 20,
@@ -11,28 +11,28 @@
   "top5": [
     {
       "rank": 1,
-      "name": "morluto/rea",
-      "velocity": 14170.8
+      "name": "deepseek-ai/deepseek-harness",
+      "velocity": 3116.9
     },
     {
       "rank": 2,
-      "name": "deepseek-ai/deepseek-harness",
-      "velocity": 3142.4
+      "name": "Gathin23/cleanyourtv",
+      "velocity": 2311.8
     },
     {
       "rank": 3,
-      "name": "Gathin23/cleanyourtv",
-      "velocity": 2381.7
+      "name": "morluto/rea",
+      "velocity": 2129.0
     },
     {
       "rank": 4,
       "name": "storytold/photocraft",
-      "velocity": 1949.7
+      "velocity": 1908.9
     },
     {
       "rank": 5,
-      "name": "debpalash/VoiceStudio",
-      "velocity": 1672.3
+      "name": "Ebony-Vinyl/dsh-our-free-model",
+      "velocity": 1434.4
     }
   ]
 }
