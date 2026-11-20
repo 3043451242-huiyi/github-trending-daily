@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-19",
-  "generated": "2026-11-19 09:50",
+  "date": "2026-11-20",
+  "generated": "2026-11-20 09:54",
   "top50_count": 50,
-  "top50_avg_velocity": 672.6,
-  "top50_total_stars": 5737001,
+  "top50_avg_velocity": 668.1,
+  "top50_total_stars": 5755837,
   "hw10_count": 20,
   "altium_entries": 36,
   "motor_entries": 20,
@@ -12,27 +12,27 @@
     {
       "rank": 1,
       "name": "deepseek-ai/deepseek-harness",
-      "velocity": 2894.5
+      "velocity": 2871.1
     },
     {
       "rank": 2,
       "name": "morluto/rea",
-      "velocity": 2138.6
+      "velocity": 2136.7
     },
     {
       "rank": 3,
       "name": "Gathin23/cleanyourtv",
-      "velocity": 1798.3
+      "velocity": 1753.3
     },
     {
       "rank": 4,
       "name": "storytold/photocraft",
-      "velocity": 1606.3
+      "velocity": 1579.0
     },
     {
       "rank": 5,
       "name": "Ebony-Vinyl/dsh-our-free-model",
-      "velocity": 1426.1
+      "velocity": 1421.9
     }
   ]
 }
