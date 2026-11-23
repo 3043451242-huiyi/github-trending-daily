@@ -1,9 +1,9 @@
 {
   "date": "2026-11-23",
-  "generated": "2026-11-23 09:18",
+  "generated": "2026-11-23 09:47",
   "top50_count": 50,
   "top50_avg_velocity": 733.5,
-  "top50_total_stars": 5888553,
+  "top50_total_stars": 5888937,
   "hw10_count": 20,
   "altium_entries": 36,
   "motor_entries": 20,
@@ -17,12 +17,12 @@
     {
       "rank": 2,
       "name": "morluto/rea",
-      "velocity": 2126.1
+      "velocity": 2126.3
     },
     {
       "rank": 3,
       "name": "Gathin23/cleanyourtv",
-      "velocity": 1631.6
+      "velocity": 1631.8
     },
     {
       "rank": 4,
@@ -32,7 +32,7 @@
     {
       "rank": 5,
       "name": "Ebony-Vinyl/dsh-our-free-model",
-      "velocity": 1399.6
+      "velocity": 1400.1
     }
   ]
 }
